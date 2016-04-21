@@ -1,0 +1,229 @@
+/*
+// +-------------------------------------------------
+// |                    全局设定         
+// +-------------------------------------------------
+*/   
+
+ul
+{
+  list-style-type: none;
+}
+
+hr
+{
+  width:100%; 
+  border: 0px;
+  border-top:1px solid  #eee;
+  margin-top:0px; 
+  float:left;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.link  /*黑色链接样式*/
+{
+  color: #000;
+}
+
+.barr
+{
+  background: #eee;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  width: 100%;
+  height: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+/*
+// +-------------------------------------------------
+// |                    顶部样式         
+// +-------------------------------------------------
+*/ 
+.bar-positive
+{
+  height:50px;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+
+
+.bar-positive input
+{
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #107272;
+  float: left;
+  padding-left: 20px;
+  color: #fff;
+  font-size:10px;
+  margin-top: 5px;
+}
+
+
+.search_ico/*顶部搜索图标*/
+{
+  float:right;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.usermenu_ico/*顶部右边菜单图标*/
+{
+  float: left;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+.bank   /*后退图标*/
+{
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.top_center
+{
+  margin-left:auto; 
+  margin-right:auto; 
+  height:50px; 
+  width:50%;
+  line-height: 40px;
+  text-align: center;
+}
+/*
+// +-------------------------------------------------
+// |                  主页中间图标样式         
+// +-------------------------------------------------
+*/ 
+.ico li
+{
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+
+.ico li img
+{
+   width: 90%;
+   /*height: 90%;*/
+}
+
+/*
+// +-------------------------------------------------
+// |                  标题样式         
+// +-------------------------------------------------
+*/
+
+.title
+{
+  width: 90%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-left: 3px solid #009999;
+  float: left;
+  padding-left: 10px;
+  font-weight: 900;
+}
+
+
+/*
+// +-------------------------------------------------
+// |                  校园活动样式         
+// +-------------------------------------------------
+*/
+
+.PartBody
+{
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.part
+{
+  width: 40%;
+  display: inline-block;
+  color:#666;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.part2
+{
+  width: 40%;
+  display: inline-block;
+  color:#666;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.part img
+{
+  width: 100%;
+}
+
+.part2 img
+{
+  width: 100%;
+}
+
+
+
+/*
+// +-------------------------------------------------
+// |                  二手交易样式         
+// +-------------------------------------------------
+*/
+.two
+{
+  width: 90%;
+  height: 90px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.two img
+{
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+/*
+// +-------------------------------------------------
+// |                  详细信息样式         
+// +-------------------------------------------------
+*/
+
+.messageMore
+{
+
+}
+
+.messageMore img
+{
+  width: 100%;
+}
+
+.messageMoreBody
+{
+  width: 100%;
+  display: inline-block;
+}
+
+
+

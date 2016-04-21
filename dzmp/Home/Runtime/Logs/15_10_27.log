@@ -1,0 +1,22 @@
+[ 2015-10-27T22:17:24+08:00 ] 183.61.51.179 /dzmp/index.php/Main/index1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013365s ]
+SQL: SHOW COLUMNS FROM `dzmp_user` [ RunTime:0.007763s ]
+SQL: SELECT * FROM `dzmp_user`  [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.124892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001165s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001595s ]
+

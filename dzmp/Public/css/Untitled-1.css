@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#head{
+background-color:#333333;
+width:75%;
+height:100px;
+margin-left:0px;
+margin-top:0px;
+}
+#table{
+background-color:#CCCCCC;
+margin-top:100px;
+width:100px;
+height:100px;
+}
+#box_relative {
+background-color:#999999;
+  height:1000px;
+  width:75%;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}

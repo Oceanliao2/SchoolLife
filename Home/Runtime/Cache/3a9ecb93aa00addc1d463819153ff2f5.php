@@ -1,0 +1,799 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--
+
+◇◇◇◇◆◆◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◇◇◆◆◇◇◇◇
+◇◇◆◆◆◆◆◆◆◆◇◇◆◇◇
+◇◇◆◆◆◆◇◇◆◆◆◆◆◆◇
+◇◇◇◆◆◆◇◇◆◇◇◆◆◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◇◇◇
+◇◇◆◆◆◆◆◆◇◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◆◇◇◇◇
+◇◇◆◆◆◆◆◆◆◆◆◇◇◇◇
+◇◇◆◆◇◆◇◇◆◆◆◆◇◇◇
+◇◇◇◇◆◆◇◆◆◇◇◆◆◇◇
+◇◇◇◇◆◆◆◆◇◇◇◆◆◆◇
+◇◇◇◇◇◆◆◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◆◆◇◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◇◆◇◇◇◇◇
+◇◇◇◆◆◆◆◆◇◆◆◆◆◇◇
+◇◇◇◆◆◇◆◆◆◆◆◆◆◇◇
+◇◇◆◆◆◆◆◇◇◆◇◇◇◇◇
+◇◆◆◇◆◆◆◆◆◆◆◆◆◆◇
+◇◇◇◇◆◆◆◆◆◆◆◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◇◇◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◆◇◇◆◇◆◆◇◇
+◇◇◆◆◆◆◆◆◆◆◆◆◆◆◇
+◇◇◆◆◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◇◇◆◇◇◇◇◇
+◇◇◇◆◆◆◇◇◇◆◇◇◇◇◇
+◇◇◆◆◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◆◆◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◆◆◆◇◇◇◇
+◇◇◇◇◆◆◇◆◇◇◆◆◇◇◇
+◇◇◇◇◆◇◇◆◇◆◆◆◆◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◇◇◆◇◆◆◆◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◆◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◆◆◇◇◇◇◇
+◇◇◇◆◆◇◇◆◆◆◇◇◇◇◇
+◇◇◆◆◇◇◆◆◇◆◆◇◇◇◇
+◇◇◇◇◆◆◆◇◇◇◆◆◆◆◇
+◇◇◇◆◆◇◇◇◇◇◆◆◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◆◆◇◆◆◇◇
+◇◇◆◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◆◆◆◆◆◆◇◆◇◆◆◇◇
+◇◇◇◇◆◆◆◆◇◆◇◆◇◇◇
+◇◆◆◆◆◆◆◆◆◆◇◆◆◇◇
+◇◇◆◆◆◇◇◆◇◆◇◇◆◇◇
+◇◇◇◆◆◆◆◆◇◆◇◇◆◇◇
+◇◇◇◆◆◇◇◆◇◆◆◆◆◇◇
+◇◇◇◇◆◆◆◆◇◆◇◆◆◇◇
+◇◇◇◆◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+
+    软件开发部成立于2008年，是由石河子大学一群IT爱好者
+组成，主要成员为大一，大二，大三学生。是一个集网站建设，
+平面设计，硬件维护，软件开发为一体的在校学生创业团队。
+部门长期做校内外多个项目，有良好的软件开发经验，和学习
+氛围。我们非常欢迎有兴趣的同学前来加入我们，一起进步；
+    加入我们时不用担心自己的能力，这本身就是一个学习
+的过程，当然我们更欢迎高手的加入，一起探讨自己的经验。
+
+				QQ群：340854904；
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>校园活动</title>
+</head>
+	<metahttp-equiv="X-UA-Compatible"content="IE=9; IE=8; IE=7; IE=EDGE">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+   <link href="__BOOTSTRAP__/css/bootstrap.min.css" rel="stylesheet">
+   <link href="__CSS__/part_add.css" rel="stylesheet">
+
+   <script src="__JS__/jquery.min.js"></script>
+   <script type="text/javascript" src="__JS__/jquery.form.js"></script> 
+   <script src="__BOOTSTRAP__/js/bootstrap.min.js"></script>
+   <script src="__JS__/uploadPreview/uploadPreview.min.js"></script>
+   <script type="text/javascript" src="__UEDITOR__/ueditor.config.js"></script> 
+   <script type="text/javascript" src="__UEDITOR__/ueditor.all.js"></script> 
+   
+  <script>
+  /*百度抓取*/
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?20cd0f2b5487fe3553f387cd9ac3c967";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
+
+   <script type="text/javascript">
+
+
+  /*
+  // +----------------------------------------------------------------------
+  // |                        编辑器配置设置                               |
+  // +----------------------------------------------------------------------
+  */
+	var ue = UE.getEditor('part_message', {
+    toolbars: 
+    [
+        [
+
+        'removeformat', //清除格式
+        'time', //时间
+        'date', //日期 
+        'spechars', //特殊字符
+        'searchreplace', //查询替换    
+        'backcolor', //背景色
+        'rowspacingtop', //段前距
+        'rowspacingbottom', //段后距
+        'pagebreak', //分页
+        'insertframe', //插入Iframe
+        'lineheight', //行间距
+        'edittip ', //编辑提示
+        'autotypeset', //自动排版
+        'inserttable', //插入表格
+        'charts', // 图表
+        'attachment', //附件
+        'undo', //撤销
+        'redo', //重做
+        'bold', //加粗
+        'italic', //斜体
+        'underline', //下划线
+        'subscript', //下标
+        'superscript', //上标
+        'formatmatch', //格式刷
+        'source', //源代码
+        'simpleupload', //单图上传
+        'insertimage', //多图上传
+        'link', //超链接
+        'emotion', //表情
+        'justifyleft', //居左对齐
+        'justifyright', //居右对齐
+        'justifycenter', //居中对齐
+        'justifyjustify', //两端对齐
+        'insertvideo', //视频
+        'forecolor', //字体颜色
+        'insertcode', //代码语言
+        'fontfamily', //字体
+        'fontsize', //字号
+        'scrawl',//涂鸦
+
+
+        ]
+    ],
+    autoHeightEnabled: true,
+    autoFloatEnabled: true,
+    maximumWords:20000,
+    initialFrameHeight:200
+ });
+
+
+  /*
+  // +----------------------------------------------------------------------
+  // |                       过滤特殊字符                                  |
+  // +----------------------------------------------------------------------
+  */
+
+      function ValidateValue(textbox)
+      {
+           var IllegalString = "\`~@#;,.!#$%^&*()+{}|\\:\"<>?-=/,\'";
+           var textboxvalue = textbox.value;
+           var index = textboxvalue.length - 1;
+           
+           var s = textbox.value.charAt(index);
+           
+           if(IllegalString.indexOf(s)>=0)
+           {
+              s = textboxvalue.substring(0,index);
+              textbox.value = s;
+           }
+      }
+
+
+    /*
+    // +----------------------------------------------------------------------
+    // |                        字段验证                                     |
+    // +----------------------------------------------------------------------
+    */
+
+  	function pass()
+  	{
+
+  	var $part_name=$('#part_name').val();
+
+		var $part_place=$('#part_place').val();
+
+		var $part_over=$('#part_over').val();
+
+		var $part_start=$('#part_start').val();
+
+		var $img=$('#image').val();
+
+
+		var $part_theme=$('#part_theme').val();
+
+		var $part_style=$('#part_style').val();
+
+		var $span_1=$('#span_1').val();
+
+		var $span_2=$('#span_2').val();
+
+		var $span_3=$('#span_3').val();
+
+    var $tel=$('#tel').val();
+
+		var $part_message=ue.getContent();
+
+
+	 if($part_name.trim()=="")
+	  {
+	  	$('#pass').css("display","block");
+	    $('#pass').slideDown(150,function(){     
+	      }).html('<nobr> 同学,你还没写活动标题</nobr>');
+	  }
+
+      else if($part_place.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写活动地点</nobr>');
+      }
+
+      else if($part_over.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写活动结束时间</nobr>');
+      }
+
+      else if($part_start.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写活动开始时间</nobr>');
+      }
+
+
+      else if($img.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没选择活动海报</nobr>');
+      }
+
+
+
+      else if($part_theme.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,还你还没写活动主题!</nobr>');
+      }
+
+      else if($part_style.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写活动形式!</nobr>');
+      }
+
+      else if($span_1.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写标签1!</nobr>');
+      }
+
+      else if($span_2.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写标签2!</nobr>');
+      }
+
+
+
+      else if($span_3.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写标签3!</nobr>');
+      }
+      	
+
+
+      else if ($part_message.trim()=="")
+      {
+      	$('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,你还没写活动详细信息!</nobr>');
+      }
+
+      else if ($tel.trim()=="")
+      {
+        $('#pass').css("display","block");
+        $('#pass').slideDown(150,function(){     
+          }).html('<nobr> 同学,必须要有电话,以便核实!</nobr>');
+      }
+
+      else
+      {
+	          $('#form').submit();
+	          $('#pass').css("display","block");
+	          $('#pass').slideDown(150,function(){     
+	          }).html('<nobr> <img src="__IMAGES__/loding.gif">请稍候..</nobr>');  
+
+      }
+
+  	}
+
+
+    /*
+    // +----------------------------------------------------------------------
+    // | Today                           日历                                     |
+    // +----------------------------------------------------------------------
+    */
+
+ 
+function HS_DateAdd(interval,number,date){
+	number = parseInt(number);
+	if (typeof(date)=="string"){var date = new Date(date.split("-")[0],date.split("-")[1],date.split("-")[2])}
+	if (typeof(date)=="object"){var date = date}
+	switch(interval){
+	case "y":return new Date(date.getFullYear()+number,date.getMonth(),date.getDate()); break;
+	case "m":return new Date(date.getFullYear(),date.getMonth()+number,checkDate(date.getFullYear(),date.getMonth()+number,date.getDate())); break;
+	case "d":return new Date(date.getFullYear(),date.getMonth(),date.getDate()+number); break;
+	case "w":return new Date(date.getFullYear(),date.getMonth(),7*number+date.getDate()); break;
+	}
+}
+function checkDate(year,month,date){
+	var enddate = ["31","28","31","30","31","30","31","31","30","31","30","31"];
+	var returnDate = "";
+	if (year%4==0){enddate[1]="29"}
+	if (date>enddate[month]){returnDate = enddate[month]}else{returnDate = date}
+	return returnDate;
+}
+function WeekDay(date){
+	var theDate;
+	if (typeof(date)=="string"){theDate = new Date(date.split("-")[0],date.split("-")[1],date.split("-")[2]);}
+	if (typeof(date)=="object"){theDate = date}
+	return theDate.getDay();
+}
+function HS_calender(){
+	var lis = "";
+	var style = "";
+	style +="<style type='text/css'>";
+	style +=".calender { width:580px; height:auto; position:relative;left:210px; top:50px; z-index:900; font-size:12px; margin-right:14px; background:url(calenderbg.gif) no-repeat right center #fff; border:1px solid #ccc; padding:1px}";
+	style +=".calender ul {list-style-type:none; margin:0; padding:0;}";
+	style +=".calender .day { background-color:#eee; height:20px;}";
+	style +=".calender .day li,.calender .date li{ float:left; width:14%; height:20px; line-height:20px; text-align:center}";
+	style +=".calender li a { text-decoration:none; font-family:Tahoma; font-size:11px; color:#333}";
+	style +=".calender li a:hover { color:#009999; text-decoration:underline}";
+	style +=".calender li a.hasArticle {font-weight:bold; color:#f60 !important}";
+	style +=".lastMonthDate, .nextMonthDate {color:#bbb;font-size:11px}";
+	style +=".selectThisYear a, .selectThisMonth a{text-decoration:none; margin:0 2px; color:#000; font-weight:bold}";
+	style +=".calender .LastMonth, .calender .NextMonth{ text-decoration:none; color:#000; font-size:18px; font-weight:bold; line-height:16px;}";
+	style +=".calender .LastMonth { float:left;}";
+	style +=".calender .NextMonth { float:right;}";
+	style +=".calenderBody {clear:both}";
+	style +=".calenderTitle {text-align:center;height:20px; line-height:20px; clear:both}";
+	style +=".today { background-color:#009999; padding:12px}";
+	style +=".today a { color:#f30; }";
+	style +=".calenderBottom {clear:both; border-top:1px solid #ddd; padding: 3px 0; text-align:left}";
+	style +=".calenderBottom a {text-decoration:none; margin:2px !important; font-weight:bold; color:#000}";
+	style +=".calenderBottom a.closeCalender{float:right}";
+	style +=".closeCalenderBox {float:right; border:1px solid #000; background:#fff; font-size:9px; width:11px; height:11px; line-height:11px; text-align:center;overflow:hidden; font-weight:normal !important}";
+	style +=".close{position:relative; top:-20px; color:#000}";
+	style +="</style>";
+	var now;
+	if (typeof(arguments[0])=="string"){
+		selectDate = arguments[0].split("-");
+		var year = selectDate[0];
+		var month = parseInt(selectDate[1])-1+"";
+		var date = selectDate[2];
+		now = new Date(year,month,date);
+	}else if (typeof(arguments[0])=="object"){
+		now = arguments[0];
+	}
+	var lastMonthEndDate = HS_DateAdd("d","-1",now.getFullYear()+"-"+now.getMonth()+"-01").getDate();
+	var lastMonthDate = WeekDay(now.getFullYear()+"-"+now.getMonth()+"-01");
+	var thisMonthLastDate = HS_DateAdd("d","-1",now.getFullYear()+"-"+(parseInt(now.getMonth())+1).toString()+"-01");
+	var thisMonthEndDate = thisMonthLastDate.getDate();
+	var thisMonthEndDay = thisMonthLastDate.getDay();
+	var todayObj = new Date();
+	today = todayObj.getFullYear()+"-"+todayObj.getMonth()+"-"+todayObj.getDate();
+	for (i=0; i<lastMonthDate; i++){  // Last Month's Date
+		lis = "<li class='lastMonthDate'>"+lastMonthEndDate+"</li>" + lis;
+		lastMonthEndDate--;
+	}
+	for (i=1; i<=thisMonthEndDate; i++){ // Current Month's Date
+		if(today == now.getFullYear()+"-"+now.getMonth()+"-"+i){
+			var todayString = now.getFullYear()+"-"+(parseInt(now.getMonth())+1).toString()+"-"+i;
+			lis += "<li><a href=javascript:void(0) class='today' onclick='_selectThisDay(this)' title='"+now.getFullYear()+"-"+(parseInt(now.getMonth())+1)+"-"+i+"'>"+i+"</a></li>";
+		}else{
+			lis += "<li><a href=javascript:void(0) onclick='_selectThisDay(this)' title='"+now.getFullYear()+"-"+(parseInt(now.getMonth())+1)+"-"+i+"'>"+i+"</a></li>";
+		}
+	}
+	var j=1;
+	for (i=thisMonthEndDay; i<6; i++){  // Next Month's Date
+		lis += "<li class='nextMonthDate'>"+j+"</li>";
+		j++;
+	}
+	lis += style;
+	var CalenderTitle = "<a href='javascript:void(0)' class='NextMonth' onclick=HS_calender(HS_DateAdd('m',1,'"+now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate()+"'),this) title='Next Month'>&raquo;</a>";
+	CalenderTitle += "<a href='javascript:void(0)' class='LastMonth' onclick=HS_calender(HS_DateAdd('m',-1,'"+now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate()+"'),this) title='Previous Month'>&laquo;</a>";
+	CalenderTitle += "<span class='selectThisYear'><a href='javascript:void(0)' onclick='CalenderselectYear(this)' title='Click here to select other year' >"+now.getFullYear()+"</a></span>年<span class='selectThisMonth'><a href='javascript:void(0)' onclick='CalenderselectMonth(this)' title='Click here to select other month'>"+(parseInt(now.getMonth())+1).toString()+"</a></span>月"; 
+	if (arguments.length>1){
+		arguments[1].parentNode.parentNode.getElementsByTagName("ul")[1].innerHTML = lis;
+		arguments[1].parentNode.innerHTML = CalenderTitle;
+	}else{
+		var CalenderBox = style+"<div class='calender'><div class='calenderTitle'>"+CalenderTitle+"</div><div class='calenderBody'><ul class='day'><li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li></ul><ul class='date' id='thisMonthDate'>"+lis+"</ul></div><div class='calenderBottom'><a href='javascript:void(0)' class='closeCalender' onclick='closeCalender(this)'><h1 class='close'>×</h1></a><span><span><a href=javascript:void(0) onclick='_selectThisDay(this)' title='"+todayString+"'>今天</a></span></span></div></div>";
+		return CalenderBox;
+	}
+}
+function _selectThisDay(d){
+	var boxObj = d.parentNode.parentNode.parentNode.parentNode.parentNode;
+		boxObj.targetObj.value = d.title;
+		boxObj.parentNode.removeChild(boxObj);
+}
+function closeCalender(d){
+	var boxObj = d.parentNode.parentNode.parentNode;
+		boxObj.parentNode.removeChild(boxObj);
+}
+function CalenderselectYear(obj){
+		var opt = "";
+		var thisYear = obj.innerHTML;
+		for (i=1970; i<=2020; i++){
+			if (i==thisYear){
+				opt += "<option value="+i+" selected>"+i+"</option>";
+			}else{
+				opt += "<option value="+i+">"+i+"</option>";
+			}
+		}
+		opt = "<select onblur='selectThisYear(this)' onchange='selectThisYear(this)' style='font-size:11px'>"+opt+"</select>";
+		obj.parentNode.innerHTML = opt;
+}
+function selectThisYear(obj){
+	HS_calender(obj.value+"-"+obj.parentNode.parentNode.getElementsByTagName("span")[1].getElementsByTagName("a")[0].innerHTML+"-1",obj.parentNode);
+}
+function CalenderselectMonth(obj){
+		var opt = "";
+		var thisMonth = obj.innerHTML;
+		for (i=1; i<=12; i++){
+			if (i==thisMonth){
+				opt += "<option value="+i+" selected>"+i+"</option>";
+			}else{
+				opt += "<option value="+i+">"+i+"</option>";
+			}
+		}
+		opt = "<select onblur='selectThisMonth(this)' onchange='selectThisMonth(this)' style='font-size:11px'>"+opt+"</select>";
+		obj.parentNode.innerHTML = opt;
+}
+function selectThisMonth(obj){
+	HS_calender(obj.parentNode.parentNode.getElementsByTagName("span")[0].getElementsByTagName("a")[0].innerHTML+"-"+obj.value+"-1",obj.parentNode);
+}
+function HS_setDate(inputObj){
+	var calenderObj = document.createElement("span");
+	calenderObj.innerHTML = HS_calender(new Date());
+	calenderObj.style.position = "absolute";
+	calenderObj.targetObj = inputObj;
+	inputObj.parentNode.insertBefore(calenderObj,inputObj.nextSibling);
+}
+
+
+
+
+</script>
+<body>
+
+    <div class="top">
+      <center>
+        <div class="top_center">
+        <img style="float:left; margin-right:30px;" src="__IMAGES__/message_inf.png">
+        <ul>
+          <a href="__APP__/Part"><li >校园活动</li></a>
+          <a href="__APP__/Part/new_part"><li style="width:130px">最新校园活动</li></a>
+          <a href="__APP__/Part/old_part"><li style="width:130px">往期活动回顾</li></a>
+          <a href="__APP__/Part/add"><li style="width:100px" class="look">活动发布</li></a><!--<img src="__IMAGES__/penguin.png">-->
+        </ul>
+        </div> 
+      </center>   
+    </div> 
+    <div class="crumbs">
+      <center>
+        <a href="__APP__/First/index2"><span>主页</span></a>>>
+        <a href="__APP__/Part" ><span>所有活动</span></a>>>
+        <a href="#" ><span style="background-color:#CC3366">发布发布</span></a>
+      </center>
+    </div>
+
+<!--表单............................................................-->
+<center>
+<div class="body">
+<p style="color:red">*活动信息发布后不可修改或删除，请确认后在发布</p>
+	<img src="__IMAGES__/part_3.png" style="float:left; margin-top:30px; margin-bottom:10px;">
+	<div class="add">
+		<form style="margin-top:30px;" action="__URL__/add_pass" method="post" enctype="multipart/form-data" id="form">
+			<ul>
+				<li>
+					活动标题: <input  type="text" id="part_name" name="part_name" placeholder="不要超过30字" onkeyup="ValidateValue(this)" maxLength="30">
+				</li>
+
+				<li>
+					活动地点: <input  type="text" id="part_place"  name="part_place"placeholder="详细地点" onkeyup="ValidateValue(this)" maxLength="30">
+				</li>
+
+				<li>
+					<div style="float:left;">活动时间:</div>  
+					<div style="margin-left:120px;float:left;">活动开始时间</div> 
+					<div style="margin-left:300px;float:left;">活动结束时间</div>
+				</li>
+
+				<li style="margin-top:0px;">
+					<select id="part_over"  name="part_over_time"   style="width:17%; margin-right:30px;"　  type="text"  placeholder="20:47:00"  readonly >
+						<option value="00:00" >00:00</option>
+					    <option value="00:30" >00:30</option>
+					    <option value="01:00" >01:00</option>
+					    <option value="01:30" >01:30</option>
+					    <option value="02:00" >02:00</option>
+					    <option value="02:30" >02:30</option>
+					    <option value="03:00" >03:00</option>
+					    <option value="03:30" >03:30</option>
+					    <option value="04:00" >04:00</option>
+					    <option value="04:30" >04:30</option>
+					    <option value="05:00" >05:00</option>
+					    <option value="05:30" >05:30</option>
+					    <option value="06:00" >06:00</option>
+					    <option value="06:30" >06:30</option>
+					    <option value="07:00" >07:00</option>
+					    <option value="07:30" >07:30</option>
+					    <option value="08:00" >08:00</option>
+					    <option value="08:30" >08:30</option>
+					    <option value="09:00" >09:00</option>
+					    <option value="09:30" >09:30</option>
+					    <option value="10:00" >10:00</option>
+					    <option value="10:30" >10:30</option>
+					    <option value="11:00" >11:00</option>
+					    <option value="11:30" >11:30</option>
+					    <option value="12:00" >12:00</option>
+					    <option value="12:30" >12:30</option>
+					    <option value="13:00" >13:00</option>
+					    <option value="13:30" >13:30</option>
+					    <option value="14:00" >14:00</option>
+					    <option value="14:30" >14:30</option>
+					    <option value="15:00" >15:00</option>
+					    <option value="15:30" >15:30</option>
+					    <option value="16:00" >16:00</option>
+					    <option value="16:30" >16:30</option>
+					    <option value="17:00" >17:00</option>
+					    <option value="17:30" >17:30</option>
+					    <option value="18:00" >18:00</option>
+					    <option value="18:30" >18:30</option>
+					    <option value="19:00" >19:00</option>
+					    <option value="19:30" >19:30</option>
+					    <option value="20:00" >20:00</option>
+					    <option value="20:30" >20:30</option>
+					    <option value="21:00" >21:00</option>
+					    <option value="21:30" >21:30</option>
+					    <option value="22:00" >22:00</option>
+					    <option value="22:30" >22:30</option>
+					    <option value="23:00" >23:00</option>
+					    <option value="23:30" >23:30</option>
+					    <option value="00:00" >00:00</option>
+					    <option value="00:30" >00:30</option>
+					    <option value="01:00" >01:00</option>
+					    <option value="01:30" >01:30</option>
+					    <option value="02:00" >02:00</option>
+					    <option value="02:30" >02:30</option>
+					    <option value="03:00" >03:00</option>
+					    <option value="03:30" >03:30</option>
+					    <option value="04:00" >04:00</option>
+					    <option value="04:30" >04:30</option>
+					    <option value="05:00" >05:00</option>
+					    <option value="05:30" >05:30</option>
+					    <option value="06:00" >06:00</option>
+					    <option value="06:30" >06:30</option>
+					    <option value="07:00" >07:00</option>
+					    <option value="07:30" >07:30</option>
+					    <option value="08:00" >08:00</option>
+					    <option value="08:30" >08:30</option>
+					    <option value="09:00" >09:00</option>
+					    <option value="09:30" >09:30</option>
+					    <option value="10:00" >10:00</option>
+					    <option value="10:30" >10:30</option>
+					    <option value="11:00" >11:00</option>
+					    <option value="11:30" >11:30</option>
+					    <option value="12:00" >12:00</option>
+					    <option value="12:30" >12:30</option>
+					    <option value="13:00" >13:00</option>
+					    <option value="13:30" >13:30</option>
+					    <option value="14:00" >14:00</option>
+					    <option value="14:30" >14:30</option>
+					    <option value="15:00" >15:00</option>
+					    <option value="15:30" >15:30</option>
+					    <option value="16:00" >16:00</option>
+					    <option value="16:30" >16:30</option>
+					    <option value="17:00" >17:00</option>
+					    <option value="17:30" >17:30</option>
+					    <option value="18:00" >18:00</option>
+					    <option value="18:30" >18:30</option>
+					    <option value="19:00" >19:00</option>
+					    <option value="19:30" >19:30</option>
+					    <option value="20:00" >20:00</option>
+					    <option value="20:30" >20:30</option>
+					    <option value="21:00" >21:00</option>
+					    <option value="21:30" >21:30</option>
+					    <option value="22:00" >22:00</option>
+					    <option value="22:30" >22:30</option>
+					    <option value="23:00" >23:00</option>
+					    <option value="23:30" >23:30</option>
+
+				    </select>	
+					<input id="part_over"   name="part_over_date"style="width:17%; margin-right:30px;"type="text"  placeholder="2015-7-27"readonly  onfocus="HS_setDate(this)">
+					
+					<select id="part_start" name="part_star_time"  style="width:17%; margin-right:30px;"type="text"  readonly >
+						<option value="00:00" >00:00</option>
+					    <option value="00:30" >00:30</option>
+					    <option value="01:00" >01:00</option>
+					    <option value="01:30" >01:30</option>
+					    <option value="02:00" >02:00</option>
+					    <option value="02:30" >02:30</option>
+					    <option value="03:00" >03:00</option>
+					    <option value="03:30" >03:30</option>
+					    <option value="04:00" >04:00</option>
+					    <option value="04:30" >04:30</option>
+					    <option value="05:00" >05:00</option>
+					    <option value="05:30" >05:30</option>
+					    <option value="06:00" >06:00</option>
+					    <option value="06:30" >06:30</option>
+					    <option value="07:00" >07:00</option>
+					    <option value="07:30" >07:30</option>
+					    <option value="08:00" >08:00</option>
+					    <option value="08:30" >08:30</option>
+					    <option value="09:00" >09:00</option>
+					    <option value="09:30" >09:30</option>
+					    <option value="10:00" >10:00</option>
+					    <option value="10:30" >10:30</option>
+					    <option value="11:00" >11:00</option>
+					    <option value="11:30" >11:30</option>
+					    <option value="12:00" >12:00</option>
+					    <option value="12:30" >12:30</option>
+					    <option value="13:00" >13:00</option>
+					    <option value="13:30" >13:30</option>
+					    <option value="14:00" >14:00</option>
+					    <option value="14:30" >14:30</option>
+					    <option value="15:00" >15:00</option>
+					    <option value="15:30" >15:30</option>
+					    <option value="16:00" >16:00</option>
+					    <option value="16:30" >16:30</option>
+					    <option value="17:00" >17:00</option>
+					    <option value="17:30" >17:30</option>
+					    <option value="18:00" >18:00</option>
+					    <option value="18:30" >18:30</option>
+					    <option value="19:00" >19:00</option>
+					    <option value="19:30" >19:30</option>
+					    <option value="20:00" >20:00</option>
+					    <option value="20:30" >20:30</option>
+					    <option value="21:00" >21:00</option>
+					    <option value="21:30" >21:30</option>
+					    <option value="22:00" >22:00</option>
+					    <option value="22:30" >22:30</option>
+					    <option value="23:00" >23:00</option>
+					    <option value="23:30" >23:30</option>
+					    <option value="00:00" >00:00</option>
+					    <option value="00:30" >00:30</option>
+					    <option value="01:00" >01:00</option>
+					    <option value="01:30" >01:30</option>
+					    <option value="02:00" >02:00</option>
+					    <option value="02:30" >02:30</option>
+					    <option value="03:00" >03:00</option>
+					    <option value="03:30" >03:30</option>
+					    <option value="04:00" >04:00</option>
+					    <option value="04:30" >04:30</option>
+					    <option value="05:00" >05:00</option>
+					    <option value="05:30" >05:30</option>
+					    <option value="06:00" >06:00</option>
+					    <option value="06:30" >06:30</option>
+					    <option value="07:00" >07:00</option>
+					    <option value="07:30" >07:30</option>
+					    <option value="08:00" >08:00</option>
+					    <option value="08:30" >08:30</option>
+					    <option value="09:00" >09:00</option>
+					    <option value="09:30" >09:30</option>
+					    <option value="10:00" >10:00</option>
+					    <option value="10:30" >10:30</option>
+					    <option value="11:00" >11:00</option>
+					    <option value="11:30" >11:30</option>
+					    <option value="12:00" >12:00</option>
+					    <option value="12:30" >12:30</option>
+					    <option value="13:00" >13:00</option>
+					    <option value="13:30" >13:30</option>
+					    <option value="14:00" >14:00</option>
+					    <option value="14:30" >14:30</option>
+					    <option value="15:00" >15:00</option>
+					    <option value="15:30" >15:30</option>
+					    <option value="16:00" >16:00</option>
+					    <option value="16:30" >16:30</option>
+					    <option value="17:00" >17:00</option>
+					    <option value="17:30" >17:30</option>
+					    <option value="18:00" >18:00</option>
+					    <option value="18:30" >18:30</option>
+					    <option value="19:00" >19:00</option>
+					    <option value="19:30" >19:30</option>
+					    <option value="20:00" >20:00</option>
+					    <option value="20:30" >20:30</option>
+					    <option value="21:00" >21:00</option>
+					    <option value="21:30" >21:30</option>
+					    <option value="22:00" >22:00</option>
+					    <option value="22:30" >22:30</option>
+					    <option value="23:00" >23:00</option>
+					    <option value="23:30" >23:30</option>
+
+				    </select>
+					<input id="part_start"  name="part_star_date"  style="width:17%; margin-right:30px;"     type="text" placeholder="2015-7-27"   readonly onfocus="HS_setDate(this)">
+				</li>
+
+				<li>活动海报: 
+					<div class="box" >
+						<a href="javascript:void(0);"  class="link">浏览</a>
+			            <input id="copy_img"  readonly="readonly" type="text" name="copyFile" class="textbox" style="width:750px;" placeholder="一张漂亮的海报会更吸引人哦！"/>			            
+			            <input type="file" id="image" name="part_image" class="uploadFile" onchange="getFile" />
+					</div>
+				</li>
+				<div class="image_look">
+		       		<img id="imgShow" onerror="this.style.display='none'"/>
+				</div>
+
+				<script type="text/javascript">
+			       window.onload = function () /*上传图片预览*/
+			       {      	
+			      		new uploadPreview({ UpBtn: "image", DivShow: "image_look", ImgShow: "imgShow"});
+			       }
+
+			        $(document).ready(function(){
+		             $("#image").change(function(){
+		             $(".image_look").css("background","#eee");
+		             $val = $("#image").val();
+					 $("#copy_img").val($val);
+		             });
+		           });
+				</script>
+
+				<li>活动主题:<input id="part_theme" name="part_theme" type="text"  placeholder="用几个词语来描述，用逗号分隔"  style="width:400px; margin-right:65px;" onkeyup="ValidateValue(this)" maxLength="20"></li>	         				
+				<li>活动形式：<input id="part_style" name="part_style" type="text"  placeholder="例如：讲座，大赛。。"  style="width:400px; margin-right:65px;" onkeyup="ValidateValue(this)" maxLength="20"></li>
+				<li>标签1：<input id="span_1" name="span_1" type="text"  placeholder="不超过４个字"  style="width:400px; margin-right:65px;" onkeyup="ValidateValue(this)" maxLength="4"></li>
+				<li>标签2：<input id="span_2" name="span_2" type="text"  placeholder="不超过４个字"  style="width:400px; margin-right:65px;" onkeyup="ValidateValue(this)" maxLength="4"></li>
+				<li>标签3：<input id="span_3" name="span_3" type="text"  placeholder="不超过４个字"  style="width:400px; margin-right:65px;" onkeyup="ValidateValue(this)" maxLength="4"></li>
+				<li>联系电话：<input id="tel" name="tel" type="text"  placeholder="核实活动信息时我们会拨打这个电话"  style="width:400px; margin-right:415px;" onkeyup="ValidateValue(this)" maxLength="15"></li>
+				<li>详细信息：</li>
+        <div class="text"><textarea id="part_message" name="part_message"></textarea></div>
+				
+					
+				
+			</ul>
+		
+	</div>
+	<input onclick="pass()" value="发布" type="button" class="submit"  onmouseover ="this.style.backgroundColor='#FFB200'" onmouseout="this.style.backgroundColor='#00A6A6'">
+	<div id="pass" style="margin:30px; margin-top:30px; margin-left:30px; color:red; display:none;"></div>
+		
+
+
+
+</form>	
+</div>
+</center>
+
+</body>
+</html>

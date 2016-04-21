@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>动态显示留言</title>
+</head>
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>  
+<script type="text/javascript"> 
+/*ajax验证*/
+function ajax()
+{
+
+      var $message=$('input[name="message"]').val(); 
+      $mess=$('#mess'); 
+      $.getJSON('__URL__/message_add',{message:$message},function(json){ 
+        //alert(json);return false; 
+        if(json.status==1)
+        { 
+          
+            $mess.css('display','block');   
+            $mess.html('信息为'+json.data.message);   
+        }
+        else
+        { 
+          $mess.css('display','block');
+          $mess.html('信息添加失败，请检查');   
+        } 
+
+      }); 
+}
+
+var count='123';
+var c=0;
+function look()
+{
+
+  
+	//返回处理最新五条信息
+	$mess1=$('#mess1');
+	$.get("__URL__/look",'',function(data){
+
+    if(data[0].message!=count)
+    {
+      
+      c++;
+      if(c>1) $mess1.empty();
+
+      for (var i=0;i<data.length;i++)
+      { 
+          //  $mess1.css('display','block');   
+            $mess1.append('<p>'+ data[i].message+'</p>'+'<br>');
+            if(i==0)
+            { 
+              $("p").fadeOut(600);
+              $("p").fadeIn(600);
+            }
+      
+      }
+      count=data[0].message;
+    }
+
+  	},'json');
+
+
+}
+
+setInterval("look()",300);
+
+</script> 
+<body onload="look()">
+<div id="mess1"  style="display:block; color:red; height:300px;">
+  <img src="__IMAGES__/loding.gif">
+</div>
+
+<br><br><br>
+
+<div id="mess"  style="display:none; color:red; height:20px;">
+  <img src="__IMAGES__/loding.gif">
+</div>
+
+<form>
+	<input type="text" name="message">
+    <input type="submit" value="提交"/ onclick="ajax()"> 
+</form> 
+</body>
+</html>
+

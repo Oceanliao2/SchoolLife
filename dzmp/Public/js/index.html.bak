@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="jquery.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+*{padding:0; margin:0}
+p{font-family: "宋体"; font-weight: 900; font-size: 20px;}
+.ui-content{background-image:url(image/bg3.jpg); background-size: 100%;  width:100%;}
+#photo{width:136px; height:180px; margin-right: 5px; background-color:#ccc; display:block;  }
+.tel1{width:400px; height:20px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; float: left;}
+.tel2{width:400px; height:20px; font-family:Arial, Helvetica, sans-serif; float: left;}
+.ewm{width:100px; height:100px; background-color:#FFFFFF; float: right;}
+</style>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="header">
+    <h1>兵团科技局</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <center>
+   <div id="photo"></div>	
+   </center>
+   <p style="padding-right:15px; text-align:center" >
+   王红德<br>
+  兵团科学技术局党组成员、科协专职副主席
+   </p>
+   
+   <div style="width:100%; float:left;line-height:30px; height:70px; margin-top:30px;"> 
+   办公室电话:&nbsp;&nbsp;1234567<br>
+   秘书电话:&nbsp;&nbsp;&nbsp;&nbsp;1234567
+   </div>
+  <div style="width:100%; float:left;  height:100px;">
+   <div class="ewm" style="margin-right:20px;"></div>
+   </div>
+  </div>
+  <div data-role="footer"> 
+  <center>
+	<a href="tel:1234567" data-role="button" class="botton">拨号</a>
+	<a href="tel:1234567" data-role="button" class="botton">官网</a>
+  </center>  
+</div> 
+
+</div>
+</body>
+</html>

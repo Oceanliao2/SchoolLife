@@ -1,0 +1,57 @@
+[ 2015-09-05T15:35:37+08:00 ] 127.0.0.1 /school/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031076s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005929s ]
+
+[ 2015-09-05T15:35:44+08:00 ] 127.0.0.1 /school/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005507s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002156s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004294s ]
+
+[ 2015-09-05T15:35:55+08:00 ] 127.0.0.1 /school/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003723s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004899s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\school\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001879s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002949s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003159s ]
+

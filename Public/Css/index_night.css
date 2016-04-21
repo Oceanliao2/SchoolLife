@@ -1,0 +1,453 @@
+	*   
+	{
+		margin:0;
+		padding:0;
+	}
+
+	body
+	{
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		background: url(../Images/bj.jpg);
+		background-attachment: fixed;
+	}
+
+	ul
+	{
+		list-style-type: none;
+	}
+
+	input
+	{
+		background-color:transparent;
+	}
+
+	.body
+	{
+		height:250px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		background: url(../Images/tou2.png);
+	}
+
+	.body2
+	{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 250px;
+		background: url(../Images/tou.png);
+	}
+
+	.top
+	{
+		width: 1000px;
+		height: 120px;
+	}
+
+	.top img
+	{
+		margin-top: 20px;
+		float: left;	
+	}
+
+	.top iframe
+	{
+		margin: 15px;
+		float: left;
+		
+	}
+	.top_left
+	{
+
+		float: right;
+		margin-top:20px; 
+	}
+	.top button
+	{
+		margin: 5px;
+	}
+	.top_date
+	{
+		float: right;
+		width: 100px;
+		height: 100px;
+		border: 1px solid #3399CC;
+	}
+
+	.user
+	{
+		width: 200px;
+		height: 50px;
+		
+		
+	}
+	.user_success
+	{
+		width: 200px;
+		height: 50px;
+		float: right;
+		line-height: 80px;
+		display: none;
+	}
+
+	.user_success p
+	{
+		position: relative;
+		left: 50px;
+		top: -40px;
+	}
+
+	.user_success img
+	{
+		position: relative;
+		left: 0px;
+		top: -10px;
+	}
+
+	.search
+	{
+		width: 1000px;
+		height: 150px;
+		margin-top:10px; 
+	
+	}
+	.search_left
+	{
+		width: 200px;
+		height: 100px;
+		position: relative;
+		top: 7px;
+		left: -380px;
+	}
+
+	.search_top1
+	{
+		width: 600px;
+		height: 50px;
+		margin-top: 20px
+	}
+
+	.search_top1 li
+	{
+		float: left;
+		width: 80px;
+	}
+
+	.menu
+	{
+		width: 1000px;
+		height: 100px;
+		margin-top:50px; 
+	}
+
+	.menu a
+	{
+		color: #408080;
+	}
+
+
+	.menu ul
+	{
+		list-style-type: none;
+	}
+
+	.menu li
+	{
+		float: left;
+		width: 130px;
+	}
+
+
+
+	/*校园资讯*/
+	.school_new
+	{
+		width: 1024px;
+		height: 400px;
+		/*border: 1px solid #33cc99;
+		border-left: 10px solid #33cc99;
+		border-right: 10px solid #33cc99;
+		background-color: #FAFAFA;
+		border-radius: 20px;*/
+	}
+
+
+	.school_new_center
+	{
+		width:600px;
+		height: 398px;
+		margin-left: 20px;
+		float: left;
+		border-right: 1px solid #999;
+	}
+
+	.school_new_center_wheel
+	{
+		width:600px;
+		height: 185px;
+		overflow: hidden;
+		margin-top: 5px;
+	}
+
+	.school_new_center_bottom
+	{
+		width: 95%;
+		height: 180px;
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.school_new_center_bottom a
+	{
+		color:#ccc;
+	}
+
+	.school_new_rigft
+	{
+		width:350px;
+		height: 398px;
+		margin-left: 20px;
+		float: right;
+		text-align: left;
+		line-height: 28px;
+		color: #999;
+	}
+
+	.school_new_rigft a
+	{
+		color:#ccc;
+	}
+
+	.school_new_rigft li
+	{
+		width:350px;
+		height: 80px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.school_new_rigft li.tittle
+	{
+		width:300px;
+		height: 25px;
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+
+	.carousel-caption
+	{
+		width: 100%;
+		height: 20px;
+		background: url(../Images/tou.png);
+		position: relative;
+		left: 0px;
+		top: -50px;
+	}
+
+	.carousel-caption p
+	{
+		position: relative;
+		top:-15px;
+		color: #ccc;
+	}
+
+	
+	/*校园活动*/
+	.school_active
+	{
+		width: 1024px;
+		height: 450px;
+		/*border: 1px solid #33cc99;
+		border-left: 10px solid #006B6B;
+		border-right: 10px solid #006B6B;
+		background-color: #FAFAFA;
+		overflow: hidden;
+		border-radius: 20px;*/
+	}
+
+	.school_active a
+	{
+		color:#006B6B;
+	}
+
+	.school_active_wheel
+	{
+		width: 1000px;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.center
+	{
+		width: 1000px;
+		height: 300px;
+		position: relative;
+		margin-top: 15px;
+		top: 0px;
+		overflow: hidden;
+	}
+
+	.center_left
+	{
+		width: 300px;
+		height: 230px;
+		float: left;
+		padding: 15px;
+		text-align: left;
+		overflow: hidden;
+	}
+
+	.center_left li
+	{
+		width: 268px;
+		height: 130px;
+		overflow: hidden;
+
+	}
+
+	.center_center
+	{
+		width: 400px;
+		height: 260px;
+		float: left;
+		padding: 15px;
+		text-align: left;
+		padding: 15px;
+	}
+
+	.center_right
+	{
+		width: 290px;
+		height: 260px;
+		float: right;
+		padding: 15px;
+		text-align: left;
+	}
+
+	.center_right li
+	{
+		width: 120px;
+		height: 70px;
+		float: left;
+		margin: 5px;
+		background-color: #ccc;
+	}
+
+/*信息发布*/
+	.school_inf
+	{
+		width: 1024px;
+		height: 580px;
+		/*border: 1px solid #33cc99;
+		border-left: 10px solid #33cc99;
+		border-right: 10px solid #33cc99;
+		background-color: #FAFAFA;
+		overflow: hidden;
+		border-radius: 20px;*/
+	}
+
+	.school_inf li
+	{
+		float: left;
+		width: 210px;
+		height: 250px;
+		margin: 20px;
+		
+	}
+
+	.school_inf_top
+	{
+		width: 200px;
+		height: 200px;
+	}
+	.school_inf_bottom
+	{
+		width: 200px;
+		height: 50px;
+
+		border-bottom: 1px solid #ccc;
+		font-size: 10px;
+		text-align: left;
+		color: #999;
+
+	}
+	.school_inf_bottom a
+	{
+		color: #ccc;
+	}
+
+	.span1
+	{
+		width:60px; 
+		text-align:center; 
+		display:inline-block;
+		background-color: #A10048;
+		position: relative;
+		top: -190px;
+		left: 150px;
+		color: #fff;
+		opacity:0.5;
+		display: none;
+	}
+
+	.span2
+	{
+		width:60px; 
+		text-align:center; 
+		display:inline-block;
+		background-color: #006B6B;
+		position: relative;
+		top: -150px;
+		left: 87px;
+		color: #fff;
+		opacity:0.5;
+		display: none;
+	}
+
+	.span3
+	{
+		width:60px; 
+		text-align:center; 
+		display:inline-block;
+		background-color: #006B6B;
+		position: relative;
+		top: -110px;
+		left: 25px;
+		color: #fff;
+		opacity:0.5;
+		display: none;
+	}
+
+	.span4
+	{
+		width:60px; 
+		text-align:center; 
+		display:inline-block;
+		background-color: #006B6B;
+		position: relative;
+		top: -100px;
+		left: 88px;
+		color: #fff;
+		opacity:0.5;
+		display: none;
+	}
+	
+	/*校园论坛*/	
+	.school_talk	
+	{
+		width: 1024px;
+		height: 450px;
+
+	}
+
+	.school_buttom
+	{
+		width: 100%;
+		height: 200px;
+		background: url(../Images/tou2.png);
+	}
+	

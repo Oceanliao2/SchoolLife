@@ -1,0 +1,155 @@
+[ 2016-04-17T02:04:34+08:00 ] 192.168.1.108 /scwelife/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+
+[ 2016-04-17T02:04:34+08:00 ] 192.168.1.108 /scwelife/index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\Home\Lib\Action\FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.006946s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000558s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.005687s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.005908s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.006221s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.005837s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.005566s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.006482s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.005902s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001591s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-04-17T02:04:34+08:00 ] 192.168.1.108 /scwelife/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\Home\Lib\Action\FirstAction.class.php 第 252 行.
+
+[ 2016-04-17T03:11:19+08:00 ] 127.0.0.1 /scwelife/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-17T03:17:24+08:00 ] 127.0.0.1 /scwelife/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+
+[ 2016-04-17T03:17:24+08:00 ] 127.0.0.1 /scwelife/index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004764s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='111' )  [ RunTime:0.000357s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='111' )  [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.004039s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004524s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004464s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004670s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.004150s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004412s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001295s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-04-17T03:17:24+08:00 ] 127.0.0.1 /scwelife/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+

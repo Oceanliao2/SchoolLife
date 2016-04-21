@@ -1,0 +1,1588 @@
+[ 2016-03-06T22:27:49+08:00 ] 127.0.0.1 /scwelife/web/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+
+[ 2016-03-06T22:27:50+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.007877s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000669s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.005468s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.006251s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.005925s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001999s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.006171s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.005938s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.006658s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.006598s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.002101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001011s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-03-06T22:27:50+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 252 行.
+
+[ 2016-03-06T22:27:55+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\PartAction.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004332s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004701s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001103s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=777,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='4' WHERE ( `id` = 5 ) [ RunTime:0.015641s ]
+
+[ 2016-03-06T22:27:57+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.007051s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000384s ]
+
+[ 2016-03-06T22:28:10+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\PartAction.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004201s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004300s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001099s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=778,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='4' WHERE ( `id` = 5 ) [ RunTime:0.014531s ]
+
+[ 2016-03-06T22:28:14+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004260s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003843s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004298s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003913s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000684s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004014s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003968s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004032s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003959s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000716s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001351s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000687s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-03-06T22:28:14+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 252 行.
+
+[ 2016-03-06T22:28:17+08:00 ] 127.0.0.1 /scwelife/web/index.php/School/essay_more/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\SchoolAction.class.php 第 487 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004256s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004433s ]
+SQL: SELECT * FROM `school_essay` WHERE (  id='4' )  [ RunTime:0.000395s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='2207191788@qq.com' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT `look` FROM `school_essay` WHERE (  id='4' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: UPDATE `school_essay` SET `look`=712 WHERE (  id='4' ) [ RunTime:0.013295s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-03-06T22:28:18+08:00 ] 127.0.0.1 /scwelife/web/index.php/School/look_essay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `school_comment_essay` [ RunTime:0.006981s ]
+SQL: SELECT * FROM `school_comment_essay` WHERE (  message_id = '4'  ) ORDER BY id desc  [ RunTime:0.000469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_comment_essay` WHERE (  message_id = '4'  ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2016-03-06T22:28:22+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004333s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003655s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004308s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003848s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000678s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004145s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003881s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003991s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039343s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003114s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-03-06T22:28:22+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\FirstAction.class.php 第 252 行.
+
+[ 2016-03-06T22:28:24+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\scwelife\web\Home\Lib\Action\PartAction.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004441s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004289s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001006s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000935s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=779,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='4' WHERE ( `id` = 5 ) [ RunTime:0.015039s ]
+
+[ 2016-03-06T22:28:24+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004966s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000600s ]
+
+[ 2016-03-06T22:28:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/comment?message=%3Cp%3EQQ%3Cimg+src%3D%22http%3A%2F%2Fimg.baidu.com%2Fhi%2Fjx2%2Fj_0001.gif%22%2F%3E%3C%2Fp%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004904s ]
+SQL: SELECT `evl` FROM `school_part` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: UPDATE `school_part` SET `evl`=5 WHERE ( id='5' ) [ RunTime:0.016608s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004340s ]
+SQL: SELECT `img` FROM `school_user` WHERE ( usernumber='' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.003709s ]
+SQL: INSERT INTO `school_comment_part` (`username`,`message_id`,`message`,`img`,`nickname`,`time`) VALUES (null,5,'<p>QQ<img src=\"http://img.baidu.com/hi/jx2/j_0001.gif\"/></p>','','',2016) [ RunTime:0.000249s ]
+ERR: 1048:Column 'username' cannot be null
+ [ SQL语句 ] : INSERT INTO `school_comment_part` (`username`,`message_id`,`message`,`img`,`nickname`,`time`) VALUES (null,5,'<p>QQ<img src=\"http://img.baidu.com/hi/jx2/j_0001.gif\"/></p>','','',2016)
+
+[ 2016-03-06T22:28:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004642s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000409s ]
+
+[ 2016-03-06T22:28:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004101s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000302s ]
+
+[ 2016-03-06T22:28:40+08:00 ] 127.0.0.1 /scwelife/web/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001289s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-03-06T22:28:51+08:00 ] 127.0.0.1 /scwelife/web/index.php/User/login_pass?username=1576701411%40qq.com&password=wsy6547704518
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_user` WHERE ( `usernumber` = '1576701411@qq.com' ) AND ( `password` = '953548314fe6cb7b1fcae93c4f7bbd80' ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000343s ]
+SQL: UPDATE `school_user` SET `lasttime`='2016-03-06' WHERE ( usernumber='1576701411@qq.com' ) [ RunTime:0.012625s ]
+
+[ 2016-03-06T22:28:52+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004108s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000413s ]
+
+[ 2016-03-06T22:28:54+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004345s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004550s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000664s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=780,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='5' WHERE ( `id` = 5 ) [ RunTime:0.014728s ]
+
+[ 2016-03-06T22:28:56+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004374s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000354s ]
+
+[ 2016-03-06T22:29:01+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/comment?message=%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Fimg.baidu.com%2Fhi%2Fjx2%2Fj_0001.gif%22%2F%3Eqq%3C%2Fp%3E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004586s ]
+SQL: SELECT `evl` FROM `school_part` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: UPDATE `school_part` SET `evl`=6 WHERE ( id='5' ) [ RunTime:0.014864s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004494s ]
+SQL: SELECT `img` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004219s ]
+SQL: INSERT INTO `school_comment_part` (`username`,`message_id`,`message`,`img`,`nickname`,`time`) VALUES ('1576701411@qq.com',5,'<p><img src=\"http://img.baidu.com/hi/jx2/j_0001.gif\"/>qq</p>','55eaabb2678f0.png','Oceanliao',2016) [ RunTime:0.010598s ]
+
+[ 2016-03-06T22:29:01+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004486s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000411s ]
+
+[ 2016-03-06T22:29:01+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004061s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000376s ]
+
+[ 2016-03-06T22:29:03+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004278s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004284s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028133s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=781,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.016775s ]
+
+[ 2016-03-06T22:29:04+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004463s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000418s ]
+
+[ 2016-03-06T22:30:07+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025611s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-03-06T22:33:24+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004535s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000469s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003748s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004483s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004317s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000694s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004143s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003984s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004360s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000698s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039607s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-03-06T22:33:25+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-03-06T22:33:26+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004338s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004655s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000985s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=2,`look`=782,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.023136s ]
+
+[ 2016-03-06T22:33:27+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004080s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000311s ]
+
+[ 2016-03-06T22:33:53+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004774s ]
+SQL: SELECT `good` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=3,`look`=782,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.008580s ]
+
+[ 2016-03-06T22:33:55+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004273s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004247s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001062s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=3,`look`=783,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.015491s ]
+
+[ 2016-03-06T22:33:57+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/good
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001335s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004798s ]
+SQL: SELECT `good` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=4,`look`=783,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.014569s ]
+
+[ 2016-03-06T22:33:58+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004059s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000322s ]
+
+[ 2016-03-06T22:34:04+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.015455s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004315s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '5'  )  [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001105s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000683s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001212s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='校园生活网',`part_place`='校园生活网',`part_star_date`='2015-10-01',`part_star_time`='00:00:00',`part_over_date`='2020-10-01',`part_over_time`='00:00:00',`part_image`='560760f610630.jpg',`part_theme`='欢迎小伙伴们免费使用',`part_style`='免费使用',`span_1`='线上平台',`span_2`='信息学院',`span_3`='原创作品',`part_message`='<p style=\"line-height: 2em;\">经过信息学院小伙伴们一个假期的辛苦，终于为同学们搭建了石河子大学第一个校园生活类线上服务平台，不是买的也不是模版替换的！绝对的原创作品哦！<img src=\"http://img.baidu.com/hi/ldw/w_0014.gif\"/>，同学们多多支持，由于网站的维护是需要一定费用的！但我们坚持完全免费，也不靠小广告赚钱！我们做这个网站的初衷就是尽可能的解决同学们在校园生活中遇到的难题，也许有一天你丢东西了真的很急，而且就算别人捡到了也不知该如何联系你，发QQ群也会很快被覆盖，但会有这么一个线上平台能够尽可能的帮助你，包括一些其他功能，像二手交易、学习分享都是很实用的！我们搭建这个平台纯粹为同学们带来便利，我们不像社会上的那些商家，想方设法的从同学们的腰包里赚钱！请同学们多多支持！如果有一天这个平台真的帮助了你，你可以选择捐赠我们，多少你们随意！</p><p style=\"line-height: 2em;\">我们的支付宝账号：18399357349</p><p style=\"line-height: 2em;\">昵称：Oceanliao</p>',`good`=4,`look`=784,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='6' WHERE ( `id` = 5 ) [ RunTime:0.524357s ]
+
+[ 2016-03-06T22:34:06+08:00 ] 127.0.0.1 /scwelife/web/index.php/Part/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `school_comment_part` [ RunTime:0.004161s ]
+SQL: SELECT * FROM `school_comment_part` WHERE (  message_id = '5'  ) ORDER BY id desc  [ RunTime:0.000331s ]
+
+[ 2016-03-06T22:34:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004334s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000544s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003795s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004598s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003960s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004156s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003868s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003899s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004007s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000760s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-03-06T22:34:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-03-06T22:34:41+08:00 ] 127.0.0.1 /scwelife/web/index.php/Search/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index: mess D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: mess D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 48 行.
+NOTIC: [8] Undefined variable: two D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: find D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: lose D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: other D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: part D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: community D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: essay D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: video D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: study D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: look_1 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 142 行.
+NOTIC: [8] Undefined variable: look_2 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 143 行.
+NOTIC: [8] Undefined variable: look_3 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 144 行.
+NOTIC: [8] Undefined variable: look_4 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 145 行.
+NOTIC: [8] Undefined variable: look_5 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 146 行.
+NOTIC: [8] Undefined variable: look_6 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 147 行.
+NOTIC: [8] Undefined variable: look_7 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 148 行.
+NOTIC: [8] Undefined variable: look_8 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 149 行.
+NOTIC: [8] Undefined variable: look_9 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 150 行.
+NOTIC: [8] Undefined variable: two D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 156 行.
+NOTIC: [8] Undefined variable: find D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 171 行.
+NOTIC: [8] Undefined variable: lose D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 185 行.
+NOTIC: [8] Undefined variable: other D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 200 行.
+NOTIC: [8] Undefined variable: part D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 215 行.
+NOTIC: [8] Undefined variable: community D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 231 行.
+NOTIC: [8] Undefined variable: essay D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 246 行.
+NOTIC: [8] Undefined variable: video D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 261 行.
+NOTIC: [8] Undefined variable: study D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 276 行.
+NOTIC: [8] Undefined index: message_tittle D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 293 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002593s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-03-06T22:34:45+08:00 ] 127.0.0.1 /scwelife/web/index.php/Search/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_search` WHERE ( word='熊' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `school_search` WHERE ( word='熊' )  [ RunTime:0.000209s ]
+SQL: UPDATE `school_search` SET `count`=7 WHERE ( word='熊' ) [ RunTime:0.009689s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004144s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='二手交易' ) AND ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='寻物启事' ) AND ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='失物招领' ) AND ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='其他' ) AND ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004680s ]
+SQL: SELECT * FROM `school_part` WHERE ( `part_name` LIKE '%熊%' )  [ RunTime:0.000368s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( `part_name` LIKE '%熊%' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004138s ]
+SQL: SELECT * FROM `school_community` WHERE ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.002590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( `message_tittle` LIKE '%熊%' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003907s ]
+SQL: SELECT * FROM `school_essay` WHERE ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.001042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( `message_tittle` LIKE '%熊%' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.004065s ]
+SQL: SELECT * FROM `school_video` WHERE ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( `message_tittle` LIKE '%熊%' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003878s ]
+SQL: SELECT * FROM `school_study` WHERE ( `message_tittle` LIKE '%熊%' )  [ RunTime:0.000806s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( `message_tittle` LIKE '%熊%' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: look_1 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 142 行.
+NOTIC: [8] Undefined variable: look_2 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 143 行.
+NOTIC: [8] Undefined variable: look_3 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 144 行.
+NOTIC: [8] Undefined variable: look_4 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 145 行.
+NOTIC: [8] Undefined variable: look_5 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 146 行.
+NOTIC: [8] Undefined variable: look_6 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 147 行.
+NOTIC: [8] Undefined variable: look_7 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 148 行.
+NOTIC: [8] Undefined variable: look_8 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 149 行.
+NOTIC: [8] Undefined variable: look_9 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 150 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-03-06T22:35:03+08:00 ] 127.0.0.1 /scwelife/web/index.php/Search/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003955s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_search` WHERE ( word='英语' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: INSERT INTO `school_search` (`word`) VALUES ('英语') [ RunTime:0.013011s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004474s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='二手交易' ) AND ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='寻物启事' ) AND ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000364s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='失物招领' ) AND ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000360s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='其他' ) AND ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004262s ]
+SQL: SELECT * FROM `school_part` WHERE ( `part_name` LIKE '%英语%' )  [ RunTime:0.000327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( `part_name` LIKE '%英语%' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003985s ]
+SQL: SELECT * FROM `school_community` WHERE ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( `message_tittle` LIKE '%英语%' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003875s ]
+SQL: SELECT * FROM `school_essay` WHERE ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( `message_tittle` LIKE '%英语%' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003982s ]
+SQL: SELECT * FROM `school_video` WHERE ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( `message_tittle` LIKE '%英语%' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003902s ]
+SQL: SELECT * FROM `school_study` WHERE ( `message_tittle` LIKE '%英语%' )  [ RunTime:0.000295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( `message_tittle` LIKE '%英语%' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: look_1 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 142 行.
+NOTIC: [8] Undefined variable: look_2 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 143 行.
+NOTIC: [8] Undefined variable: look_3 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 144 行.
+NOTIC: [8] Undefined variable: look_4 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 145 行.
+NOTIC: [8] Undefined variable: look_5 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 146 行.
+NOTIC: [8] Undefined variable: look_6 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 147 行.
+NOTIC: [8] Undefined variable: look_7 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 148 行.
+NOTIC: [8] Undefined variable: look_8 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 149 行.
+NOTIC: [8] Undefined variable: look_9 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 150 行.
+NOTIC: [8] Undefined index: message_tittle D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 293 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-03-06T22:35:06+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004360s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003607s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004211s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000387s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004065s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004281s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003933s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003852s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000617s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003861s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001106s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002993s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-03-06T22:35:06+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-03-06T22:35:23+08:00 ] 127.0.0.1 /scwelife/web/index.php/Search/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Undefined index: mess D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 25 行.
+NOTIC: [8] Undefined index: mess D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 48 行.
+NOTIC: [8] Undefined variable: two D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: find D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: lose D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: other D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: part D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: community D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: essay D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: video D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: study D:\wamp\www\scwelife\web\Home\Lib\Action\SearchAction.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003938s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: look_1 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 142 行.
+NOTIC: [8] Undefined variable: look_2 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 143 行.
+NOTIC: [8] Undefined variable: look_3 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 144 行.
+NOTIC: [8] Undefined variable: look_4 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 145 行.
+NOTIC: [8] Undefined variable: look_5 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 146 行.
+NOTIC: [8] Undefined variable: look_6 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 147 行.
+NOTIC: [8] Undefined variable: look_7 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 148 行.
+NOTIC: [8] Undefined variable: look_8 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 149 行.
+NOTIC: [8] Undefined variable: look_9 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 150 行.
+NOTIC: [8] Undefined variable: two D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 156 行.
+NOTIC: [8] Undefined variable: find D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 171 行.
+NOTIC: [8] Undefined variable: lose D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 185 行.
+NOTIC: [8] Undefined variable: other D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 200 行.
+NOTIC: [8] Undefined variable: part D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 215 行.
+NOTIC: [8] Undefined variable: community D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 231 行.
+NOTIC: [8] Undefined variable: essay D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 246 行.
+NOTIC: [8] Undefined variable: video D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 261 行.
+NOTIC: [8] Undefined variable: study D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 276 行.
+NOTIC: [8] Undefined index: message_tittle D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 293 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002980s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-03-06T22:35:28+08:00 ] 127.0.0.1 /scwelife/web/index.php/Search/search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003947s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_search` WHERE ( word='电车' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: INSERT INTO `school_search` (`word`) VALUES ('电车') [ RunTime:0.012838s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='二手交易' ) AND ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='寻物启事' ) AND ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='失物招领' ) AND ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( span_1='其他' ) AND ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004273s ]
+SQL: SELECT * FROM `school_part` WHERE ( `part_name` LIKE '%电车%' )  [ RunTime:0.000289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( `part_name` LIKE '%电车%' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `school_community` WHERE ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( `message_tittle` LIKE '%电车%' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003845s ]
+SQL: SELECT * FROM `school_essay` WHERE ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( `message_tittle` LIKE '%电车%' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.004303s ]
+SQL: SELECT * FROM `school_video` WHERE ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( `message_tittle` LIKE '%电车%' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004152s ]
+SQL: SELECT * FROM `school_study` WHERE ( `message_tittle` LIKE '%电车%' )  [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( `message_tittle` LIKE '%电车%' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: look_1 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 142 行.
+NOTIC: [8] Undefined variable: look_2 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 143 行.
+NOTIC: [8] Undefined variable: look_3 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 144 行.
+NOTIC: [8] Undefined variable: look_4 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 145 行.
+NOTIC: [8] Undefined variable: look_5 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 146 行.
+NOTIC: [8] Undefined variable: look_6 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 147 行.
+NOTIC: [8] Undefined variable: look_7 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 148 行.
+NOTIC: [8] Undefined variable: look_8 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 149 行.
+NOTIC: [8] Undefined variable: look_9 D:\wamp\www\scwelife\web\Home\Runtime\Cache\92e38013410269d8abd4d4154f893d34.php 第 150 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-03-06T22:36:33+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004300s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000494s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003865s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004375s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004330s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000776s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004182s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003864s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004093s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000634s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004054s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-03-06T22:36:33+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-03-06T22:36:35+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004224s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE ( message_username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003879s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003921s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003903s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-03-06T22:37:16+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter/user_updata
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004344s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015345s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000847s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002904s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-03-06T22:37:49+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter/school_info
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004442s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000517s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001350s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-03-06T22:41:09+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004310s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE ( message_username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003871s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003869s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003911s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003893s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000837s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-03-06T22:41:10+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004222s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003548s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004379s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000464s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004061s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000762s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004193s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003866s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003956s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000686s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001114s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002996s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-03-06T22:41:10+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-03-06T22:47:26+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004331s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE ( message_username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.003877s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.003920s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_video` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.003896s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE ( mess_user='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000834s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002996s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001052s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-03-06T22:47:29+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter/school_info
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004563s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000514s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000373s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000555s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' AND message_username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003125s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-03-06T22:47:30+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter/school_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004692s ]
+SQL: SELECT * FROM `school_part` WHERE ( username='1576701411@qq.com' ) ORDER BY id DESC  [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( username='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000746s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002608s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-03-06T22:47:33+08:00 ] 127.0.0.1 /scwelife/web/index.php/Usercenter/part_look_back/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `school_part_look_back` [ RunTime:0.005757s ]
+SQL: SELECT * FROM `school_part_look_back` WHERE ( part_id='4' )  [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000734s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-03-06T22:47:38+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004638s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000514s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003962s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004218s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000322s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004118s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000702s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.004254s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004004s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000667s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004099s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001102s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-03-06T22:47:38+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+

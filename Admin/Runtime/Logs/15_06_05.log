@@ -1,0 +1,19 @@
+[ 2015-06-05T18:00:27+08:00 ] 127.0.0.1 /shzu_lose/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018835s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.120674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120963s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\shzu_lose\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\shzu_lose\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.018585s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.014518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017131s ]
+

@@ -1,0 +1,426 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+
+	color: #666;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+	overflow-x:hidden; 
+
+}
+
+
+img
+{
+	border: 0px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #666;
+}
+
+
+.top
+{
+	width: 100%;
+	height: 70px;
+	background-color: #60BFBF;
+	position: fixed;
+	z-index: 1000;
+}
+
+.top_center
+{
+	width: 1024px;
+	position: relative;
+	top: 10px;
+
+}
+
+.top_center li
+{
+	 float: left;
+	 height: 50px;
+	 line-height: 60px;
+	 width: 100px;
+	 margin-right: 20px;
+	 color: #fff;
+}
+
+.top_center li a
+{
+	color: #fff;
+}
+
+.top_center a:hover li
+{	
+	background-color: #009999;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+.top_center li.look
+{
+	background-color: #009999;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center a:hover li.look
+{
+	background-color: #009999;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center li.user
+{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+
+}
+
+.img
+{
+	width: 100%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../Images/school_info_img.jpg) repeat-x center;
+	position: relative;
+	top: 70px;
+}
+.crumbs  /*面包屑导航*/
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	margin-top: 70px;
+}
+
+.part_add/*1024 80*/
+{
+	width: 1004px;
+	height: 60px;
+	padding: 10px;
+	background: #bbb;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.part_add_button
+{
+	width: 120px;
+	height: 40px;
+	float: right;
+	position: relative;
+	top: -15px;
+	right: 20px;
+	margin-top: 0px;
+	border: 0px;
+	background-color: #CC3D3D;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+a:hover .part_add_button 
+{
+	background-color: #CC2929;
+}
+
+.new_tittle
+{
+	width: 400px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 80px;
+	color: #CC3D3D;
+	border-bottom: 1px solid #666;
+	margin-bottom: 30px;
+}
+
+.menu
+{
+	width: 120px;
+	height: 160px;
+	float: right;
+	position: relative;
+	top:20px;
+	left: 120px;
+	display: none;
+}
+/***************************************************************************/
+.new
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
+	margin-top: 30px;
+}
+
+.new li
+{
+	width: 220px;
+	height: 300px;	
+	background-color: #eee;
+	float: left;
+	margin-right: 13px;
+	margin-left: 13px;
+	margin-bottom: 20px;
+	text-align: left;
+	border: 1px solid #eee;
+	padding: 5px;
+	padding-right: 0px;
+	border-radius: 10px;
+	font-weight: 100;
+
+}
+
+
+a:hover .new_li
+{
+	background-color: #ccc;
+}
+
+
+
+.new li img
+{
+	width: 215px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/********************************/
+
+.user_menu
+{
+	width: 1024px;
+	height: 100px;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:999
+}
+
+.user_menu_mess
+{
+	background-color: #ccc;
+	width: 100px;
+	height: 180px;
+	float: right;
+	border-radius: 10px;
+	background-color: #60BFBF;
+/*	position: fixed;
+	left: 1090px;
+	top: 100px;*/
+	margin-top: 90px;
+	z-index: 1000;
+	display: none;
+
+}
+
+.user_menu_mess li
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+.user_menu_mess li a
+{
+	color: #fff;
+}
+
+.user_menu_mess li a:hover
+{
+	color: #009999;
+}
+
+.user_menu_mess_top
+{
+	border-bottom: 10px solid #60BFBF;
+	border-left: 10px solid #60BFBF;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 1px;
+	height: 1px;
+	position: relative;
+	top: -159px;
+	left: 50px;
+	display: none;
+
+}
+
+
+#no_login
+{
+	background-color: #ccc;
+	width: 100px;
+	height: 180px;
+	float: right;
+	border-radius: 10px;
+	background-color: #60BFBF;
+/*	position: fixed;
+	left: 1090px;
+	top: 100px;*/
+	margin-top: 90px;
+	z-index: 1000;
+	display: none;
+}
+
+#no_login li
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+#no_login li a
+{
+	color: #fff;
+}
+
+#no_login li a:hover
+{
+	color: #009999;
+}
+
+#no_login_top
+{
+	border-bottom: 10px solid #60BFBF;
+	border-left: 10px solid #60BFBF;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 1px;
+	height: 1px;
+	position: relative;
+	top: -160px;
+	left: 50px;
+	display: none;
+}
+
+
+
+
+/***分页************************/
+#big
+{
+	width: 50px;
+	height: 50px;
+	background-color: #6699CC;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#big:hover
+{
+	background-color: #66CCFF;
+}
+
+
+.current
+{
+	width: 50px;
+	height: 50px;
+	background-color: #66CCFF;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+}
+/********************************************************************************/
+.buttom
+{
+
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 320px;
+	background: url(../Images/bg_11.jpg);
+	margin-top: 70px;
+	overflow: hidden;
+}
+
+.buttom_center
+{
+
+	width: 1024px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding-top:20px; 
+
+	position: relative;
+	top: 150px;
+
+}
+
+
+.buttom_right
+{
+	width: 470px;
+	height: 200px;
+	padding-top:20px; 
+
+	float: right;
+	position: relative;
+	top: -100px;
+}
+
+.buttom_right_ico
+{
+	width: 130px;
+	height: 30px;
+	padding: 5px;
+	background-color: #009999;
+	line-height: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+

@@ -1,0 +1,107 @@
+[ 2015-10-29T23:08:57+08:00 ] 124.119.55.116 /dzmp/index.php/Main/index1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004986s ]
+SQL: SHOW COLUMNS FROM `dzmp_user` [ RunTime:0.007281s ]
+SQL: SELECT * FROM `dzmp_user`  [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002717s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010987s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2015-10-29T23:09:09+08:00 ] 124.119.55.116 /dzmp/index.php/Main/index3/id/24
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `dzmp_user` [ RunTime:0.000653s ]
+SQL: SELECT * FROM `dzmp_user` WHERE ( id = '24' )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `dzmp_system` [ RunTime:0.000323s ]
+ERR: 1146:Table 'school.dzmp_system' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dzmp_system`
+SQL: SELECT * FROM `dzmp_system`  [ RunTime:0.000145s ]
+ERR: 1146:Table 'school.dzmp_system' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dzmp_system` 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 18 行.
+NOTIC: [8] Undefined index:  phone /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 64 行.
+NOTIC: [8] Undefined index:  fix /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 65 行.
+NOTIC: [8] Undefined index:  http /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 71 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007715s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000271s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-10-29T23:13:30+08:00 ] 124.119.55.116 /dzmp/index.php/Main/index1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000807s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `dzmp_user` [ RunTime:0.000957s ]
+SQL: SELECT * FROM `dzmp_user`  [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-10-29T23:13:39+08:00 ] 124.119.55.116 /dzmp/index.php/Main/index3/id/24
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `dzmp_user` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `dzmp_user` WHERE ( id = '24' )  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `dzmp_system` [ RunTime:0.000390s ]
+ERR: 1146:Table 'school.dzmp_system' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dzmp_system`
+SQL: SELECT * FROM `dzmp_system`  [ RunTime:0.000108s ]
+ERR: 1146:Table 'school.dzmp_system' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `dzmp_system` 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  phone /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 64 行.
+NOTIC: [8] Undefined index:  fix /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 65 行.
+NOTIC: [8] Undefined index:  http /www/users/shzlife.com/dzmp/Home/Runtime/Cache/293f54f9b8d7d216cee0344618746e90.php 第 71 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007213s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000308s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+

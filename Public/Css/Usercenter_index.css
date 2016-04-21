@@ -1,0 +1,271 @@
+/*part_message_more css DOC*/
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+
+	color: #666;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+	overflow-x:hidden; 
+
+}
+
+
+img
+{
+	border: 0px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #666;
+}
+
+
+hr
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.body
+{
+	width: 100%;
+	height: 5400px;
+	overflow: hidden;
+}
+*/
+
+.top
+{
+	width: 100%;
+	height: 70px;
+	background-color: #60BFBF;
+	position: fixed;
+	z-index: 1000;
+}
+
+.top_center
+{
+	width: 1024px;
+}
+
+.top_center li
+{
+	 float: left;
+	 height: 50px;
+	 line-height: 60px;
+	 margin-right: 20px;
+	 color: #fff;
+}
+
+.top_center li a
+{
+	color: #fff;
+}
+
+.top_center a:hover li
+{	
+	background-color: #009999;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+.top_center li.look
+{
+	background-color: #009999;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center a:hover li.look
+{
+	background-color: #009999;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center li.user
+{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+
+.crumbs  /*面包屑导航*/
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	position: relative;
+	top: 90px;
+	color: #60BFBF;
+}
+
+.crumbs span
+{
+	display: inline-block;
+	padding: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #60BFBF;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.crumbs a:hover span
+{
+	background-color: #99CCFF;
+}
+
+
+/******************************************************************************/
+.inf
+{
+	width: 1024px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+.inf_left
+{
+	width: 350px;
+	height: 500px;
+	background-color: #eee;
+	float: left;
+}
+
+.inf_left img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-top: 30px;
+}
+
+.inf_right
+{
+	width: 670px;
+	height: 500px;
+	background-color: #eee;
+	float: left;
+	padding: 15px;
+}
+
+.inf_right li
+{
+	height: 85px;
+	width: 300px;
+	float: left;
+}
+
+.inf_right li a
+{
+	color: #009999;
+}
+
+.inf_left a
+{
+	color: #009999;
+}
+
+.user_ico
+{
+	float: right;
+	width: 50px;
+	margin-right: 20px;
+	opacity: 0;
+	z-index: 3;
+}
+
+.user_ico_submit
+{
+	float: right;
+}
+
+.user_ico_b
+{
+	width: 70px;
+	height:22px; 
+	background:url(../Images/user_ico.png);
+	border-radius: 3px;
+	float: right;
+	margin-right: 20px;
+	color: #fff;
+	padding-left: 5px;
+}
+/********************************************************************************/
+.buttom
+{
+
+	position: relative;
+	top:200px;
+	width: 100%;
+	height: 240px;
+	background-color: #60BFBF;
+	margin-top: 70px;
+
+}
+
+.buttom_center
+{
+
+	width: 1024px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding-top:20px; 
+}
+
+
+.buttom_right
+{
+	width: 470px;
+	height: 200px;
+	padding-top:20px; 
+	float: right;
+	position: relative;
+	top: -100px;
+}
+
+.buttom_right_ico
+{
+	width: 130px;
+	height: 30px;
+	padding: 5px;
+	background-color: #009999;
+	line-height: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+

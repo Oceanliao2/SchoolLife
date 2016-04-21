@@ -1,0 +1,332 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+
+	color: #666;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+	overflow-x:hidden; 
+
+}
+
+
+img
+{
+	border: 0px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #666;
+}
+
+
+hr
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.body
+{
+	width: 100%;
+	height: 5400px;
+	overflow: hidden;
+}
+*/
+
+.top
+{
+	width: 100%;
+	height: 70px;
+	background-color: #60BFBF;
+	position: relative;
+	top: -10px;
+}
+
+.top_center
+{
+	width: 1024px;
+	position: relative;
+	top: 10px;
+
+}
+
+.top_center li
+{
+	 float: left;
+	 height: 50px;
+	 line-height: 60px;
+	 width: 100px;
+	 margin-right: 20px;
+	 color: #fff;
+}
+
+.top_center li a
+{
+	color: #fff;
+}
+
+.top_center a:hover li
+{	
+	background-color: #009999;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+.top_center li.look
+{
+	background-color: #009999;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center a:hover li.look
+{
+	background-color: #009999;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center li.user
+{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+
+.crumbs  /*面包屑导航*/
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+	color: #60BFBF;
+}
+
+.crumbs span
+{
+	display: inline-block;
+	padding: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #60BFBF;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.crumbs a:hover span
+{
+	background-color: #99CCFF;
+}
+/*..........................................................................*/	
+.body
+{
+	width: 1064px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+.body li
+{
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	margin-top: 20px;
+	line-height: 20px;
+
+}
+
+.body li input
+{
+	width: 80%;
+	height: 40px;
+	padding: 10px;
+	float: right;
+	border: 1px solid #ccc;
+	outline-style: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 100;
+	color: black;
+	background-color: #fff;
+
+}
+
+.body li input:focus
+{
+	border:1px solid #00A6A6;
+}
+
+.body li input:hover
+{
+	border:1px solid #00A6A6;
+}
+
+.body li select:focus
+{
+	border:1px solid #00A6A6;
+}
+
+.body li select:hover
+{
+	border:1px solid #00A6A6;
+}
+
+.body li select
+{
+	width: 80%;
+	height: 40px;
+	padding: 10px;
+	float: right;
+	border: 1px solid #ccc;
+	outline-style: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 100;
+	color: black;
+	background-color: #fff;
+
+}
+
+.add
+{
+	width: 1024px;
+	display: inline-block;
+	border-top: 1px solid #00A6A6;
+	border-bottom: 1px solid #00A6A6;
+	padding-bottom: 20px;
+	font-weight: 900;
+	color: #666;
+	font-size: 18px;
+}
+
+
+.text
+{
+	 width:800px;  
+	 float: right;
+	 margin-right: 15px;
+	 display:inline-block;
+	 min-height: 300px;
+}
+
+.box
+{
+	width: 80%;
+	height: 40px;
+	position:relative;
+	float:right;
+}
+
+input.uploadFile{
+	position:absolute;
+	right:0px;
+	top:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+	width:230px;
+	height:40px;
+	overflow: hidden;
+}
+
+input.textbox{
+	float:right;
+	padding:5px;
+	color:#999;
+	height:24px;
+	line-height:24px;
+	border:1px #ccc solid;
+	width:230px;
+	height: 35px;
+	margin-right:4px;
+	border-radius: 5px;
+}
+a.link
+{
+	float:right;
+	display:inline-block;
+	padding:4px 16px;
+	color:#fff;
+	font:14px "Microsoft YaHei", Verdana, Geneva, sans-serif;
+	cursor:pointer;
+	background-color:#00A6A6;
+	line-height:28px;
+	text-decoration:none;
+	height: 38px;
+	border-radius: 5px;
+}
+
+.box a:hover
+{
+	background-color:#009999;
+}
+
+
+.submit
+{
+	border:0px;
+	background-color: #00A6A6;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 15px;
+	font-weight: 900;
+	outline-style: none;
+	color: #fff;
+	margin-left: 400px;
+	line-height: 50px;
+
+}
+
+
+.image_look
+{
+	width: 350px;
+	height: 320px;
+	float: right;
+	margin-top: 20px;
+	background:url(../Images/imglook.png);
+}
+
+#imgShow
+{
+	max-width:350px;
+	_width:expression(this.width > 350 ? "350px" : this.width);
+	max-height: 320px;
+	z-index: 2;
+}

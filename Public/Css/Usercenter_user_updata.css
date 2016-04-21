@@ -1,0 +1,291 @@
+/*part_message_more css DOC*/
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+
+	color: #666;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+	overflow-x:hidden; 
+
+}
+
+
+img
+{
+	border: 0px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #666;
+}
+
+
+hr
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.body
+{
+	width: 100%;
+	height: 5400px;
+	overflow: hidden;
+}
+*/
+
+.top
+{
+	width: 100%;
+	height: 70px;
+	background-color: #60BFBF;
+	position: fixed;
+	z-index: 1000;
+}
+
+.top_center
+{
+	width: 1024px;
+}
+
+.top_center li
+{
+	 float: left;
+	 height: 50px;
+	 line-height: 60px;
+	 width: 160px;
+	 margin-right: 20px;
+	 color: #fff;
+}
+
+.top_center li a
+{
+	color: #fff;
+}
+
+.top_center a:hover li
+{	
+	background-color: #009999;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+.top_center li.look
+{
+	background-color: #009999;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center a:hover li.look
+{
+	background-color: #009999;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center li.user
+{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+
+.crumbs  /*面包屑导航*/
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	position: relative;
+	top: 90px;
+	color: #60BFBF;
+}
+
+.crumbs span
+{
+	display: inline-block;
+	padding: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #60BFBF;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.crumbs a:hover span
+{
+	background-color: #99CCFF;
+}
+
+
+/******************************************************************************/
+.inf
+{
+	width: 1024px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+
+
+.inf_left
+{
+	width: 350px;
+	height: 500px;
+	background-color: #eee;
+	float: left;
+}
+
+.inf_left img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-top: 30px;
+}
+
+.inf_right
+{
+	width: 650px;
+	height: 500px;
+	background-color: #eee;
+	float: right;
+	padding: 15px;
+}
+
+.inf_right input
+{
+	width: 450px;
+	height: 40px;
+	float: right;
+	margin-right: 50px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	outline-style: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 100;
+	color: black;
+	background-color: #eee;
+}
+
+.inf_right input:focus
+{
+	border:1px solid #00A6A6;
+}
+
+.inf_right input:hover
+{
+	border:1px solid #00A6A6;
+}
+
+.inf_right li
+{
+	height: 85px;
+	width: 100%;
+	float: left;
+	line-height: 40px;
+}
+
+.inf_right li a
+{
+	color: #009999;
+}
+
+.inf_left a
+{
+	color: #009999;
+}
+
+.pass_mess
+{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-right: 50px;
+	color: red;
+	line-height: 40px;
+	display: none;
+}
+
+
+/********************************************************************************/
+.buttom
+{
+
+	position: relative;
+	top:200px;
+	width: 100%;
+	height: 240px;
+	background-color: #60BFBF;
+	margin-top: 70px;
+
+}
+
+.buttom_center
+{
+
+	width: 1024px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding-top:20px; 
+}
+
+
+.buttom_right
+{
+	width: 470px;
+	height: 200px;
+	padding-top:20px; 
+	float: right;
+	position: relative;
+	top: -100px;
+}
+
+.buttom_right_ico
+{
+	width: 130px;
+	height: 30px;
+	padding: 5px;
+	background-color: #009999;
+	line-height: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+

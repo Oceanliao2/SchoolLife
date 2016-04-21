@@ -1,0 +1,23 @@
+<ion-header-bar class="bar-positive" style="background-color: #009999;">
+  <a class="bank" href="#/tab/home"><i class="ion-ios-arrow-back"></i></a>              
+  <div class="top_center">
+    二手信息
+  </div>
+  <span class="ion-android-menu usermenu_ico" data-pack="android" data-tags=""></span>
+</ion-header-bar>
+
+
+<ion-view>
+  <ion-content class="padding">
+    <volist name="data" id="vo">
+      <a href="__URL__/message_more/id/{$vo.id}" class="link">
+        <div class="two">
+          <img onerror="this.src='__IMAGES__/img_error.png'" src="__UPLOADS__/thumb_{$vo['image']}">
+          <p style="font-weight:900;">{$vo['message_tittle']|subtext=5}</p>
+          <small style="color:#666;">{$vo['message_more']|subtext=25}</small>
+          <p style="font-weight:900;color:#009999;">{$vo['span_2']}</p>            
+        </div>
+      </a>  
+    </volist>
+  </ion-content>
+</ion-view>

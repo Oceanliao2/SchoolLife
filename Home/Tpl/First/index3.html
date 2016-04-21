@@ -1,0 +1,854 @@
+<!--
+
+◇◇◇◇◆◆◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◇◇◆◆◇◇◇◇
+◇◇◆◆◆◆◆◆◆◆◇◇◆◇◇
+◇◇◆◆◆◆◇◇◆◆◆◆◆◆◇
+◇◇◇◆◆◆◇◇◆◇◇◆◆◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◇◇◇
+◇◇◆◆◆◆◆◆◇◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◆◇◇◇◇
+◇◇◆◆◆◆◆◆◆◆◆◇◇◇◇
+◇◇◆◆◇◆◇◇◆◆◆◆◇◇◇
+◇◇◇◇◆◆◇◆◆◇◇◆◆◇◇
+◇◇◇◇◆◆◆◆◇◇◇◆◆◆◇
+◇◇◇◇◇◆◆◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◆◆◇◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◇◆◇◇◇◇◇
+◇◇◇◆◆◆◆◆◇◆◆◆◆◇◇
+◇◇◇◆◆◇◆◆◆◆◆◆◆◇◇
+◇◇◆◆◆◆◆◇◇◆◇◇◇◇◇
+◇◆◆◇◆◆◆◆◆◆◆◆◆◆◇
+◇◇◇◇◆◆◆◆◆◆◆◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◇◇◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◆◇◇◆◇◆◆◇◇
+◇◇◆◆◆◆◆◆◆◆◆◆◆◆◇
+◇◇◆◆◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◇◇◆◇◇◇◇◇
+◇◇◇◆◆◆◇◇◇◆◇◇◇◇◇
+◇◇◆◆◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◆◆◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◆◆◆◇◇◇◇
+◇◇◇◇◆◆◇◆◇◇◆◆◇◇◇
+◇◇◇◇◆◇◇◆◇◆◆◆◆◇◇
+◇◇◇◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◇◇◆◇◆◆◆◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◆◆◆◇◇◇◇
+◇◇◇◇◇◆◆◆◇◆◇◇◇◇◇
+◇◇◇◇◆◆◇◆◆◆◇◇◇◇◇
+◇◇◇◆◆◇◇◆◆◆◇◇◇◇◇
+◇◇◆◆◇◇◆◆◇◆◆◇◇◇◇
+◇◇◇◇◆◆◆◇◇◇◆◆◆◆◇
+◇◇◇◆◆◇◇◇◇◇◆◆◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◇◇◇◇◇◇◇
+◇◇◇◇◇◆◆◇◆◆◇◆◆◇◇
+◇◇◆◆◆◆◆◆◆◆◆◆◆◇◇
+◇◇◆◆◆◆◆◆◇◆◇◆◆◇◇
+◇◇◇◇◆◆◆◆◇◆◇◆◇◇◇
+◇◆◆◆◆◆◆◆◆◆◇◆◆◇◇
+◇◇◆◆◆◇◇◆◇◆◇◇◆◇◇
+◇◇◇◆◆◆◆◆◇◆◇◇◆◇◇
+◇◇◇◆◆◇◇◆◇◆◆◆◆◇◇
+◇◇◇◇◆◆◆◆◇◆◇◆◆◇◇
+◇◇◇◆◆◆◆◇◇◆◇◇◇◇◇
+◇◇◇◇◆◇◇◇◆◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◆◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
+
+    软件开发部成立于2008年，是由石河子大学一群IT爱好者
+组成，主要成员为大一，大二，大三学生。是一个集网站建设，
+平面设计，硬件维护，软件开发为一体的在校学生创业团队。
+部门长期做校内外多个项目，有良好的软件开发经验，和学习
+氛围。我们非常欢迎有兴趣的同学前来加入我们，一起进步；
+    加入我们时不用担心自己的能力，这本身就是一个学习
+的过程，当然我们更欢迎高手的加入，一起探讨自己的经验。
+
+				QQ群：340854904；
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+   <title>石河子大学校园生活网</title>
+   <meta name="keywords" content="二手信息,失物招领,寻物启事,其他信息,校园活动,校园话题,文章随笔,视频分享,学习分享" />
+   <meta name="description" content="校园生活网是集二手信息,失物招领,寻物启事,其他信息,校园活动,校园话题,文章随笔,视频分享,学习分享等信息发布平台。享受最便捷的校园生活服务" />
+   
+   <meta name="baidu-site-verification" content="aV4t8MQNt7" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+   <metahttp-equiv="X-UA-Compatible"content="IE=9; IE=8; IE=7; IE=EDGE">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+   <meta name="renderer" content="webkit">
+
+   <link href="__BOOTSTRAP__/css/bootstrap.min.css" rel="stylesheet">
+   <link href="__CSS__/index2.css" rel="stylesheet">
+   <link rel="shortcut icon" href="__IMAGES__/school_logo.ico"	>
+
+   <script src="__JS__/jquery.min.js"></script>
+   <script src="__BOOTSTRAP__/js/bootstrap.min.js"></script>
+
+<script>
+/*百度抓取*/
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?20cd0f2b5487fe3553f387cd9ac3c967";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script type="text/javascript">
+
+
+/*轮播图*/
+		function getStyle(obj,name)
+		{
+			if(obj.currentStyle)
+			{
+				return obj.currentStyle[name]
+			}
+			else
+			{
+				return getComputedStyle(obj,false)[name]
+			}
+		}
+
+		function getByClass(oParent,nClass)
+		{
+			var eLe = oParent.getElementsByTagName('*');
+			var aRrent  = [];
+			for(var i=0; i<eLe.length; i++)
+			{
+				if(eLe[i].className == nClass)
+				{
+					aRrent.push(eLe[i]);
+				}
+			}
+			return aRrent;
+		}
+
+		function startMove(obj,att,add)
+		{
+			clearInterval(obj.timer)
+			obj.timer = setInterval(function(){
+			   var cutt = 0 ;
+			   if(att=='opacity')
+			   {
+				   cutt = Math.round(parseFloat(getStyle(obj,att)));
+			   }
+			   else
+			   {
+				   cutt = Math.round(parseInt(getStyle(obj,att)));
+			   }
+			   var speed = (add-cutt)/4;
+			   speed = speed>0?Math.ceil(speed):Math.floor(speed);
+			   if(cutt==add)
+			   {
+				   clearInterval(obj.timer)
+			   }
+			   else
+			   {
+				   if(att=='opacity')
+				   {
+					   obj.style.opacity = (cutt+speed)/100;
+					   obj.style.filter = 'alpha(opacity:'+(cutt+speed)+')';
+				   }
+				   else
+				   {
+					   obj.style[att] = cutt+speed+'px';
+				   }
+			   }
+			   
+			},30)
+		}
+
+		  window.onload = function()
+		  {
+			  var oDiv = document.getElementById('playBox');
+			  var oPre = getByClass(oDiv,'pre')[0];
+			  var oNext = getByClass(oDiv,'next')[0];
+			  var oUlBig = getByClass(oDiv,'oUlplay')[0];
+			  var aBigLi = oUlBig.getElementsByTagName('li');
+			  var oDivSmall = getByClass(oDiv,'smalltitle')[0]
+			  var aLiSmall = oDivSmall.getElementsByTagName('li');
+			  
+			  function tab()
+			  {
+			     for(var i=0; i<aLiSmall.length; i++)
+			     {
+				    aLiSmall[i].className = '';
+			     }
+			     aLiSmall[now].className = 'thistitle'
+			     startMove(oUlBig,'left',-(now*aBigLi[0].offsetWidth))
+			  }
+			  var now = 0;
+			  for(var i=0; i<aLiSmall.length; i++)
+			  {
+				  aLiSmall[i].index = i;
+				  aLiSmall[i].onclick = function()
+				  {
+					  now = this.index;
+					  tab();
+				  }
+			 }
+			  oPre.onclick = function()
+			  {
+				  now--
+				  if(now ==-1)
+				  {
+					  now = aBigLi.length;
+				  }
+				   tab();
+			  }
+			   oNext.onclick = function()
+			  {
+				   now++
+				  if(now ==aBigLi.length)
+				  {
+					  now = 0;
+				  }
+				  tab();
+			  }
+			  var timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+			  oDiv.onmouseover = function()
+			  {
+				  clearInterval(timer)
+			  }
+			   oDiv.onmouseout = function()
+			  {
+				  timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+			  }
+		  }
+/*轮播图结束......*/
+
+
+
+
+
+/**参数说明：
+02
+ * 根据长度截取先使用字符串，超长部分追加…
+03
+ * str 对象字符串
+04
+ * len 目标字节长度
+05
+ * 返回值： 处理结果字符串
+06
+ */
+
+function cutString(str, len) {
+
+    //length属性读出来的汉字长度为1
+
+    if(str.length*2 <= len) {
+
+        return str;
+
+    }
+
+    var strlen = 0;
+
+    var s = "";
+
+    for(var i = 0;i < str.length; i++) {
+
+        s = s + str.charAt(i);
+
+        if (str.charCodeAt(i) > 128) {
+
+            strlen = strlen + 2;
+
+            if(strlen >= len){
+
+                return s.substring(0,s.length-1) + "...";
+
+            }
+
+        } else {
+
+            strlen = strlen + 1;
+
+            if(strlen >= len){
+
+                return s.substring(0,s.length-2) + "...";
+
+            }
+
+        }
+
+    }
+
+    return s;
+
+}
+
+
+
+
+
+
+/*ajax验证*/
+  $(function(){ 
+    $('input:button').click(function(){ 
+        var $username=$('#username').val(); //val() 方法返回或设置被选元素的值。
+  		var $password=$('#password').val(); 
+ 
+
+     	$mess=$('#mess');//选择id=mess的元素
+
+        $mess.slideDown(150,function(){ //显示
+            $mess.css('display','block');    
+        }); 
+
+
+	//$('#mess').html($username);
+
+      if($username=='')
+      {
+        $mess.slideDown(150,function(){     
+          }).html('同学你还没有输入用户名');
+      } 
+
+     else if($username.length<6)
+      {
+        $mess.slideDown(150,function(){     
+          }).html('同学用户名不能少于6位');
+      }
+
+      else if($password=="")
+      {
+        $mess.slideDown(150,function(){     
+          }).html('同学你还没有输入密码');
+      }
+
+      else if($password.length<6)
+      {
+        $mess.slideDown(150,function(){     
+          }).html('同学密码不能少于6位');
+      }
+  
+      else
+      {
+	      //通过 HTTP GET 请求载入 JSON 数据。
+	      $.get('__APP__/User/login_pass',{username:$username,password:$password},function(data){ 
+	        //alert(json);return false; 
+	        if(data==0)
+	        { 
+	          $mess.slideDown(150,function(){ //slideDown() 方法通过使用滑动效果，显示隐藏的被选元素。
+	          }).html('用户名或密码错了诶!');  	           
+	        }
+
+	        else
+	        { 
+	           data=cutString(data,8);
+	           $(".left_top_login_success").css("display","block");
+	           $(".left_top_login").css("display","none");
+	           $("#login_user").html("Hello,"+data);
+	        }     
+	      },'json'); 
+    }
+    })   
+  }) 
+
+/*................*/
+      $.get("__URL__/username",'',function(data){ 
+        //alert(json);return false; 
+        if(data==1)
+        { 
+        //  $mess.html('123');
+          $(".left_top_login").css("display","none");
+          $(".left_top_login_success").css("display","block");
+        }  
+      },'json');
+</script> 
+</head>
+<body onload="alert('网站现处于测试阶段，所有信息均为测试信息,大家随意测试，有问题需要吐槽的，可以直接告诉我，也可以点击主页下方的意见反馈')">
+
+<!--导航栏............................................................right_body_center-->
+<div class="menu">
+	<center>
+		<div class="menu_center">
+			<div class="search">
+			<form method="post" action='__APP__/Search/search' id="form2">
+				<input type="text" class="search_input" style="width:150px; padding-left: 15px;" name="mess">
+				<input type="submit" value="搜索" onmouseover ="this.style.backgroundColor='#fff'" onmouseout="this.style.backgroundColor=''" >
+			</form>
+			</div> 
+			<div class="menu_center_menu">
+				<ul>
+					<li><a href="__APP__/Message/two.html">二手信息 </li></a>
+					<li><a href="__APP__/Message/lose.html">失物招领 </a></li>
+					<li><a href="__APP__/Message/find.html">寻物启事 </a></li>
+					<li><a href="__APP__/Message/other.html">其他信息</a></li>
+					<li><a href="__APP__/Part"> 校园活动 </li></a>
+					<li><a href="__APP__/School/community">校园话题 </a></li>
+					<li><a href="__APP__/School/essay">文章随笔 </a></li>
+					<li><a href="__APP__/School/video">视频分享 </a></li>
+					<li><a href="__APP__/School/study">学习分享</li></a>						
+				</ul>
+			</div>	
+		</div>
+	</center>
+</div>
+
+
+
+
+
+
+
+<div id="body">
+<!--用户登录.....................................................................-->	
+<div class="left">
+			<div class="left_logo"><img src="__IMAGES__/logo_small.png"></div>
+			<div style="width:100%; border-top:1px solid #ccc; float:left;"></div>
+			<div class="left_top_login">
+					<div style="width:100%; height:10px; color:red; display:none" id="mess">Login....</div>
+					<form name="myForm">
+
+						<input id="username" type="username" neme="username"class="form-control"placeholder="用户名"  style="border:1px solid #B580FF;"/>
+						<input id="password" type="password" name="password" class="form-control"placeholder="密码" style="border:1px solid #B580FF;"/>
+						<input id="submit" type="button"class="login_submit" style="width:100%"  value="登陆"onmouseover ="this.style.backgroundColor='#D580FF'" onmouseout="this.style.backgroundColor='#009999'" />
+						
+					</form>	
+					<br>
+					<a href="__APP__/User/find_code" style="float:left">忘记密码?</a> 
+
+					<a href="__APP__/User/add" style="float:right">注册</a>
+			</div>
+			<div class="left_top_login_success">
+				<div style="width:100%;height:80px;">
+					<img style="border-radius:50px;"  id="img" onerror="this.src='__IMAGES__/35.jpg'"  src="__UPLOADS__/thumb_{$userdata[0]['img']}">
+					<p id="login_user" style="font-weight:100">hello,{$username|subtext=8}</p>
+				</div>	
+				<button type="button" class="btn btn-info" style="float:left">
+					 消息
+				</button>
+
+				<a href="__APP__/Usercenter">
+				<button type="button" class="btn btn-success" style="float:left; margin-left:10px;">
+					 中心
+				</button>
+				</a>
+
+				<a href="__APP__/User/logout">
+				<button type="button" class="btn btn-success" >
+					 退出
+				</button>
+				</a>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--...最近活动......................................................................-->		
+			<div class="left_block_3">
+				<ul>
+					<volist name="search" id="vo" offset="0" length='3'>
+						<li ><a style="color:#E60066" href="javascript:void(0);" onclick="se('{$vo.word}')">{$vo.word|subtext=3}</a></li>
+					</volist>
+					<volist name="search" id="vo" offset="4" length='3'>
+						<li ><a style="color:#B580FF" href="javascript:void(0);" onclick="se('{$vo.word}')">{$vo.word|subtext=3}</a></li>
+					</volist>				
+				</ul>
+			    <script type="text/javascript">
+			    /*热词搜索*/
+			      function se(value)
+			      {
+			        $(".search_input").attr("value",value);
+			        $("#form2").submit();
+
+			      }
+			    </script>			
+			</div>
+			<div class="left_block_1">
+				<p>最近活动</p><br><br>
+				
+				<div class="left_block_1_1">
+					<volist name="part" id="vo" offset="0" length='1'>
+					    <a href="__APP__/Part/message_more/id/{$vo['id']}">
+						{$vo['part_name']|subtext=10}
+						<img src="__UPLOADS__/thumb_{$vo['part_image']}">
+						</a>
+						<small>{$vo['part_message']|subtext=50}</small>
+					</volist>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--..往期活动........................................................................... -->		
+			<div class="left_block_2">
+				<p>往期活动</p><br><br>
+				<volist name="part2" id="vo" offset="0" length='2'>
+					<div class="left_block_2_1">
+					    <a href="__APP__/Part/part_bank/id/{$vo['id']}">
+					    {$vo['part_name']|subtext=10}
+						<img src="__UPLOADS__/thumb_{$vo['part_image']}">
+						</a>
+					</div>
+				</volist>
+				<hr style="width:100%; border-top:1px solid  #ccc;margin-top:0px; float:left;"></hr>
+				<volist name="part2" id="vo" offset="0" length='3'>			
+					<?php $i=$i+1; ?>			
+					<ul>
+						<li>
+						<span class="span"><?php echo $i/2; ?></span>														 
+						<a href="__APP__/Part/part_bank/id/{$vo['id']}">{$vo['part_name']|subtext=9}</a></li>
+						<hr style="width:100%; border-top:1px dashed  #ccc;margin-top:0px; float:left;"></hr>
+					</ul>
+				</volist>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--..文章/随笔............................................................................-->		
+			<p style="margin-bottom:25px;">文章/随笔</p>
+			<p style="float:right"><a href="__APP__/School/essay_add">去分享>></a></p>
+			<div class="left_essay">
+			 <volist name="essay" id="vo" offset="0" length='1'>
+				<img src="__UPLOADS__/thumb_{$vo['img']}">
+				<p><a href="__APP__/School/essay_more/id/{$vo['id']}" style="color:#666;">{$vo['message_tittle']|subtext=8}</a></p>
+				<small>{$vo['message_more']|subtext=28}</small>
+			</volist>	
+			</div>
+
+			<div class="left_essay">
+			<ul>
+				<volist name="essay" id="vo" offset="0" length='4'>
+				<?php $i=$i+1; ?>	
+				<hr style="width:100%; border-top:1px dashed  #ccc;margin-top:0px; float:left;"></hr>
+				<li><span style="background-color:#009966; line-height:20px;" class="span"><?php echo $i/2; ?></span><a href="__APP__/School/essay_more/id/{$vo['id']}" style="color:#666;">{$vo['message_tittle']|subtext=10}</a></li>
+				</volist>
+			</ul>
+			</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--右侧栏顶部.................................................................................-->	
+<div class="right_top">
+
+		  <div id="playBox">
+		    <div class="pre"></div>
+		    <div class="next"></div>
+		    <div class="smalltitle">
+		      <ul>
+		        <li class="thistitle"></li>
+		        <li></li>
+		        <li></li>
+		        <li></li>
+		        <li></li>
+		        <li></li>
+		      </ul>
+		    </div>
+		    <ul class="oUlplay">
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/24.jpg"</a></li>
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/25.jpg"</a></li>
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/26.jpg"</a></li>
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/24.jpg"</a></li>
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/25.jpg"</a></li>
+		       <li><a href="#" target="_blank"><img src="__IMAGES__/26.jpg"</a></li>
+		    </ul>
+		  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--★校园动态...................................................................................-->
+<div class="right_body_center">
+		<div class="right_body_center_top">
+			<ul>
+				<a href="#"><li class="tittle">★校园动态</li></a>
+				<a href="#"><li>教学新闻</li></a>
+				<a href="#"><li>教学通告</li></a>
+			</ul>
+			<hr style="width:100%; border-top:1px solid #ccc;margin-top:10px; float:left;"></hr>
+			<div class="right_body_center_top_down">
+				<ul>
+					<li></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 1</span> 石河子大学第五届大学生结构设计大赛落幕<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 2</span> 人民日报海外版副总编钱江老师为我校广电系师生举办专题讲座<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 3</span> 文艺学院中国语言系组织召开实习支教经验交流会<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 4</span> 我校2015届本科毕业生学士学位授予仪式隆重举行<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 5</span> 我校2015年6月全国大学英语四、六级及英语应用能力考试圆满...<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 6</span> 文艺学院中国语言系组织召开实习支教经验交流会<span style="float:right">2014-5-8</span></a></li>
+					<li><a href="#"><span style="width:20px; height:20px; background-color:#6BB300; display:inline-block; border-radius: 5px; text-align: center;"> 7</span> 我校2015届本科毕业生学士学位授予仪式隆重举行<span style="float:right">2014-5-8</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--校园信息发布...........................................................................-->	
+		<div class="right_body_center_2">
+			<ul>
+				<a href="__APP__/Message/index"><li class="tittle">★校园信息发布</li></a>
+				<a href="__APP__/Message/index"><li>更多>></li></a>
+				<a href="__APP__/Message/index"><li>我要发布</li></a>
+			</ul>
+
+			<hr style="width:100%; border-top:1px solid #ccc;margin-top:10px; float:left;"></hr>
+			
+			<volist name="school_info" id="vo" offset="0" length='3'>
+			<div class="right_body_center_2_img">
+				<a href="__APP__/Message/message_more/id/{$vo['id']}">
+				<img onerror="this.src='__IMAGES__/img_error.png'" src="__UPLOADS__/thumb_{$vo['image']}"></a>
+				<div style="width:100%; height:50px; position:relative;top:-50px; background-color:#000; opacity:0.5;color:#fff;">
+					{$vo['span_1']}<br>
+					{$vo['message_tittle']|subtext=5}
+				</div>
+			</div>
+			</volist>
+
+			<hr style="width:100%; border-top:1px dashed  #ccc;margin-top:10px; float:left;"></hr>
+			<div class="right_body_center_2_down">
+			<br>
+			<table   style="text-align:left; float:left;margin-left:20px;  width:250px; font-weight:900; color:#666;">
+				<volist name="school_info" id="vo" offset="3" length='5'>
+					<?php $i=$i+1; ?>
+				
+				    
+					<tr style="height:50px;"> 
+					    <td width="20px; "><span style="background-color:#66CCCC; line-height:20px;" class="span"><?php echo $i/2; ?></span></td>
+						<td width="100px; ">{$vo['span_1']}</td>
+						<td width="100px; "><a href="__APP__/Message/message_more/id/{$vo['id']}">{$vo['message_tittle']|subtext=5}</a></td>
+					</tr>					
+				</volist>															
+			</table>	
+			<table   style="text-align:left; float:right;  width:250px; font-weight:900; color:#666;">
+				<volist name="school_info" id="vo" offset="8" length='5'>
+					<?php $i=$i+1; ?>
+				
+				    
+					<tr style="height:50px;"> 
+					    <td width="20px; "><span style="background-color:#66CCCC; line-height:20px;" class="span"><?php echo $i/2; ?></span></td>
+						<td width="100px; ">{$vo['span_1']}</td>
+						<td width="100px; "><a href="__APP__/Message/message_more/id/{$vo['id']}">{$vo['message_tittle']|subtext=5}</a></td>
+					</tr>					
+				</volist>															
+			</table>						
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--★校园微视频 ............................................................................... -->
+		<div class="right_body_center_3">
+			<ul>
+				<a href="__APP__/School/video"><li class="tittle">★校园微视频</li></a>
+				<a href="__APP__/School/video"><li>更多>></li></a>
+				<a href="__APP__/School/video_add"><li>我要分享</li></a>
+			</ul>
+			<hr style="width:100%; border-top:1px solid #ccc;margin-top:10px; float:left;"></hr>
+			
+			<volist name="video" id="vo" offset="0" length='8'>
+				<div class="right_body_center_3_video">
+				<a href="__APP__/School/video_more/id/{$vo['id']}">
+				<img style="width:230px; height:78px;" src="__UPLOADS__/thumb_{$vo['img']}">
+				<p style="color:#666">{$vo.message_tittle|subtext=10}</p>
+				<small>{$vo.message_more|subtext=18}</small>					
+				</a>
+				</div>
+			</volist>
+		</div>	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--下方最右边栏......................38.................................... -->	
+<div class="right_body_right">
+		<p style="color:#00B366">校园话题</p>
+		<p style="color:#00B366; float:right;"><a href="__APP__/School/community">去看看>></a></p>
+		<br><br>
+		
+		<volist name="community" id="vo" offset="0" length='2'>
+			<div class="community">
+			<a href="__APP__/School/community_more/id/{$vo['id']}">
+		    <p style="color:#666">{$vo.message_tittle|subtext=8}</p>		    
+			<img style="width:195px; height:65px;" src="__UPLOADS__/thumb_{$vo['img']}">
+			</a>
+			<small>{$vo.message_more|subtext=58}</small>			
+		    </div>
+		</volist>
+
+		<div style="width:100%; height:100px; background-color:#ccc; margin-bottom:25px; margin-top:28px;">
+			<img src="__IMAGES__/38.jpg">
+		</div>
+		<ul class="community_ul">
+			<volist name="community" id="vo" offset="2" length='3'>
+			<?php $i=$i+1; ?>	
+
+			<li>
+			<a href="__APP__/School/community_more/id/{$vo['id']}" style="color:#666">
+				<span style="background-color:#009966; line-height:20px;" class="span"><?php echo $i/2; ?></span>{$vo.message_tittle|subtext=8}</li>
+			</a>
+			<div style="width:100%; border-top:1px dashed  #ccc;margin-top:10px; float:left;"></div>	
+			</volist>				
+		</ul>
+
+		
+		<p style="color:#00B366">学习分享</p>
+		<p style="color:#00B366; float:right;"><a href="__APP__/School/study">去看看>></a></p><br><br>
+		<hr style="width:100%; border-top:1px solid  #ccc;margin-top:10px; float:left;"></hr>
+		<volist name="study" id="vo" offset="0" length='1'>
+			<div class="community">
+			<a href="__APP__/School/study_more/id/{$vo['id']}">
+		    <p style="color:#666">{$vo.message_tittle|subtext=8}</p>		    
+			<img style="width:195px; height:65px;" src="__UPLOADS__/thumb_{$vo['img']}">
+			</a>
+			<small>{$vo.message_more|subtext=42}</small>			
+		    </div>
+		</volist>
+		<ul>
+			<volist name="study" id="vo" offset="0" length='2'>
+				<?php $i=$i+1; ?>	
+				<li>
+					<a href="__APP__/School/study_more/id/{$vo['id']}" style="color:#666">
+						<span style="background-color:#009966; line-height:20px;" class="span"><?php echo $i/2; ?></span>{$vo.message_tittle|subtext=8}
+					</a>
+			    </li>	
+				<div style="width:100%; border-top:1px dashed  #ccc;margin-top:10px; float:left;"></div>	
+			</volist>				
+		</ul>		
+</div>
+
+</div>
+<!--.......................................................................................-->
+
+<div class="b">
+	<div class="b_l">
+	    校园生活网是一个完全免费的校园生活类网站，<br>
+	    从建设以来立志为同学们提供最便捷的校园生活服务;<br>
+	    网站如今由石河子大学信息科学与技术学院软件开发部开发与维护,<br>
+	    我们非常欢迎有兴趣的同学前来加入我们，一起进步；
+	</div>    
+    <div class="b_r">
+	  <div class="buttom_right_ico">
+      <img style=" margin-right:5px;" src="__IMAGES__/qq.png">340854904
+      </div>
+      <div class="buttom_right_ico">
+      <img style=" margin-right:5px;" src="__IMAGES__/wechat.png">shzurk
+      </div>
+      <img style="float:right;position:relative; top:-110px; left:-50px;" src="__IMAGES__/code.jpg">
+    </div>  
+    <div class="b_b">
+    	<a href="http://www.rkshzu.cn/wp/">石大软件开发部</a>&nbsp|&nbsp
+	    <a href="__APP__/First/essay">关于我们</a>&nbsp|&nbsp
+	    <a href="__APP__/First/essay">源码下载</a>&nbsp|&nbsp 
+	    <a href="__APP__/First/essay">联系我们</a>&nbsp|&nbsp
+	    <a href="__APP__/First/essay">意见反馈</a>
+    </div> 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<style type="text/css">
+  .bank
+  {
+    width: 30px;
+    height: 30px;
+    background-color: #107272;
+    color:#fff;
+    text-decoration:none;
+    padding: 3px;
+    font-size: 16px;
+    text-align: center;
+    padding-top:7px; 
+    border-radius: 5px;
+  }
+
+</style>
+
+<ion-header-bar class="bar-positive" style="background-color: #009999;">
+  <span class="ion-android-menu usermenu_ico" data-pack="android" data-tags=""></span>             
+  <div class="top_center">社区</div>        
+  <span class="ion-ios-search-strong search_ico"></span>     
+</ion-header-bar>
+
+
+<ion-view>
+  <ion-content class="padding">
+    社区。。
+  </ion-content>
+</ion-view>

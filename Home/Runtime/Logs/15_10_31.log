@@ -1,0 +1,3064 @@
+[ 2015-10-31T00:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T00:15:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T00:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T00:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T01:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T01:05:02+08:00 ] 82.193.127.15 /index.php/Part/message_more/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/PartAction.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.003045s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `school_part` WHERE (  id = '4'  )  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000664s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+SQL: SELECT `look` FROM `school_part` WHERE (   id = '4'   ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SELECT * FROM `school_part` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000537s ]
+SQL: UPDATE `school_part` SET `username`='1576701411@qq.com',`part_name`='手工橡皮章制作—｛闺蜜的约会｝手工课程',`part_place`='（广东深圳）皇庭广场 F-cup cafe',`part_star_date`='2015-09-01',`part_star_time`='00:00:00',`part_over_date`='2015-09-02',`part_over_time`='00:00:00',`part_image`='55eb03bc19a39.jpg',`part_theme`='手工',`part_style`='DIY',`span_1`='橡皮章',`span_2`='手工',`span_3`='橡皮章',`part_message`='<p style=\"line-height: 3em;\">轻巧简单的手工作品</p><p style=\"line-height: 3em;\">只需使用小型的雕刻刀具在橡皮砖上进行雕刻</p><p style=\"line-height: 3em;\">即可制作出能反复盖印的图案</p><p style=\"line-height: 3em;\">相对于石头和木头材质的章底</p><p style=\"line-height: 3em;\"><img src=\"/ueditor/php/upload/image/20150905/1441465259566477.jpg\" title=\"T2pbh7XuVaXXXXXXXX_!!479751912.jpg\" alt=\"T2pbh7XuVaXXXXXXXX_!!479751912.jpg\" style=\"border: 0px;vertical-align: middle;height: auto\"/>&nbsp;</p><p style=\"line-height: 3em;\">刻好的橡皮章结合不同颜色的印泥可以制造出各种效果</p><p style=\"line-height: 3em;\">橡皮章制作最早流行于日本、韩国，随后传至台湾，近来才开始在内地受到欢迎</p><p style=\"line-height: 3em;\">橡皮章的橡皮材质在印章制作过程中会更容易驾驭些</p><p style=\"line-height: 3em;\">不需要很深厚的雕刻技巧</p><p style=\"line-height: 3em;\">跟着指示就能完成心中想要图案</p><p style=\"line-height: 3em;\">&nbsp;</p><p><br/></p><p style=\"line-height: 3em;\"><img src=\"/ueditor/php/upload/image/20150905/1441465260866731.jpg\" title=\"T1MljlXmJpXXXXdGc5_054610.jpg_400x400.jpg\" alt=\"T1MljlXmJpXXXXdGc5_054610.jpg_400x400.jpg\" style=\"border: 0px;vertical-align: middle;height: auto\"/>&nbsp;<img src=\"/ueditor/php/upload/image/20150905/1441465261767112.jpg\" title=\"T2shyXXxNXXXXXXXXX_!!479751912.jpg\" alt=\"T2shyXXxNXXXXXXXXX_!!479751912.jpg\" style=\"border: 0px;vertical-align: middle;height: auto\"/>&nbsp;<img src=\"/ueditor/php/upload/image/20150905/1441465262968622.jpg\" title=\"T2xQ4WXsRaXXXXXXXX_!!479751912.jpg\" alt=\"T2xQ4WXsRaXXXXXXXX_!!479751912.jpg\" width=\"300\" height=\"400\" style=\"border: 0px;vertical-align: middle;height: 400px;width: 300px\"/><br/></p><p><br/></p><p style=\"line-height: 3em;\">课程&nbsp;时间：&nbsp; 8月29日 星期日</p><p style=\"line-height: 3em;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3：00pm－5：00 pm</p><p style=\"line-height: 3em;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style=\"line-height: 3em;\">课程 价格：</p><p style=\"line-height: 3em;\">&nbsp;手工章&nbsp;1:00 pm—3:30pm &nbsp; 230／人&nbsp;</p><p style=\"line-height: 3em;\">&nbsp;<br/></p><p style=\"line-height: 3em;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;课程 安排：</p><p style=\"line-height: 3em;\">1.制作所需材料及工具的准备及介绍。</p><p style=\"line-height: 3em;\">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老师演示教学（约15分钟）。</p><p style=\"line-height: 3em;\">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学员制作，老师以及助理辅导。</p><p style=\"line-height: 3em;\">4.下午茶以及拍摄时间</p><p><br/></p><p><br/></p><p style=\"line-height: 3em;\">创意的起点，优雅的生活以及正能量的传播，关注活动行＋闺蜜的约会平台</p><p><br/></p><p style=\"line-height: 3em;\"><img src=\"/ueditor/php/upload/image/20150905/1441465266112453.jpg\" title=\"386684577776613135.jpg\" alt=\"386684577776613135.jpg\" width=\"455\" height=\"614\" style=\"border: 0px;vertical-align: middle;height: 614px;width: 455px\"/><br/></p><p style=\"line-height: 3em;\">&nbsp;<br/></p><p><br/></p><p style=\"line-height: 3em;\">咖啡，花艺，创意手工，烘培，下午茶聚会－带你离开繁琐的生活以及工作。</p><p style=\"line-height: 3em;\">约会主旨：优雅的起点，创意的生活，以及正能量传播。快来加入闺蜜的约会，周末来一个优雅的小旅程。</p><p><br/></p>',`good`=1,`look`=41,`sign_up`=0,`collect`=0,`is_strong`=0,`shar`=0,`pass`=1,`tel`='18290777865',`evl`='0' WHERE ( `id` = 4 ) [ RunTime:0.003875s ]
+
+[ 2015-10-31T01:05:05+08:00 ] 82.193.127.15 /index.php/School/study_more/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 539 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001683s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.001647s ]
+SQL: SELECT * FROM `school_study` WHERE (  id='2' )  [ RunTime:0.000426s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT `look` FROM `school_study` WHERE (  id='2' ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: UPDATE `school_study` SET `look`=17 WHERE (  id='2' ) [ RunTime:0.002530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.116428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-10-31T01:05:07+08:00 ] 82.193.127.15 /index.php/School/study_more/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 539 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001211s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.001056s ]
+SQL: SELECT * FROM `school_study` WHERE (  id='3' )  [ RunTime:0.000369s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT `look` FROM `school_study` WHERE (  id='3' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: UPDATE `school_study` SET `look`=12 WHERE (  id='3' ) [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-10-31T01:05:10+08:00 ] 82.193.127.15 /index.php/School/study_more/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 539 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001074s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `school_study` WHERE (  id='4' )  [ RunTime:0.000403s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT `look` FROM `school_study` WHERE (  id='4' ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: UPDATE `school_study` SET `look`=13 WHERE (  id='4' ) [ RunTime:0.003475s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022089s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001254s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2015-10-31T01:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T01:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T01:40:30+08:00 ] 220.181.108.94 /index.php/Message/message_more/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.002068s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001796s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '7'  )  [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.090627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000686s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003599s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001260s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '7'   ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab4f3e4004.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='基础生命学',`message_more`='上课要用的书，哪位好心人看到了联系我一下',`span_1`='寻物启事',`span_2`='丢失地点：博学楼A204',`span_3`='酬谢方式：当面酬谢',`span_4`='物品价值：￥24',`time`='2015-09-05',`look_number`=23,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 7 ) [ RunTime:0.003541s ]
+
+[ 2015-10-31T01:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T02:00:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T02:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T02:30:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T02:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T03:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T03:14:15+08:00 ] 68.180.229.42 /index.php/Message/two.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001217s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='二手交易' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.562806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.562943s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001020s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2015-10-31T03:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T03:15:53+08:00 ] 68.180.229.42 /index.php/Message/add_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 236 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000618s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002697s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2015-10-31T03:30:11+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T03:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T04:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T04:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T04:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T04:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T05:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T05:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T05:29:44+08:00 ] 123.125.71.74 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-10-31T05:29:47+08:00 ] 123.125.71.71 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.009409s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000688s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.010518s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.007687s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000595s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000537s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000586s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.010013s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000903s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001804s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.041497s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.009669s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.042125s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000773s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.144511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144712s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002070s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005276s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2015-10-31T05:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T05:45:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T06:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T06:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T06:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T06:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T07:00:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T07:15:06+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T07:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T07:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T08:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T08:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T08:30:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T08:45:02+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T09:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T09:09:48+08:00 ] 68.180.229.42 /index.php/Part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.031190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/PartAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.012303s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004644s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 )  [ RunTime:0.000310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 )  [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.124481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124607s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006009s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008434s ]
+
+[ 2015-10-31T09:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T09:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T09:36:30+08:00 ] 123.125.71.89 /index.php/School/community_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 461 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.025215s ]
+SQL: SELECT * FROM `school_community` WHERE (  id='5' )  [ RunTime:0.000281s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `look` FROM `school_community` WHERE (  id='5' ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: UPDATE `school_community` SET `look`=29 WHERE (  id='5' ) [ RunTime:0.002780s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-10-31T09:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T10:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T10:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T10:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T10:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T11:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T11:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T11:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T11:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007754s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T12:00:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T12:15:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T12:23:52+08:00 ] 106.38.241.159 /index.php/Message/message_more/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.086590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.086846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.113854s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.174327s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '12'  )  [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.160073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160261s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.120785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.135146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008372s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '12'   ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab7a6c05d1.jpg',`img2`='55eab7a6d22fb.jpg',`img3`='-',`img4`='-',`message_tittle`='启航考研强化班',`message_more`='启航远程强化班，数学英语政治，低价转让，有意者请加QQ：754820113，或者手机联系：18317894721，谢谢～',`span_1`='其他',`span_2`='主要标签：强化班',`span_3`='标签1：考研',`span_4`='标签2：启航',`time`='2015-09-05',`look_number`=31,`qq`='754820113',`tel`='18317894721',`collect`=0,`bad`=0,`good`=0,`comment`=0 WHERE ( `id` = 12 ) [ RunTime:0.004001s ]
+
+[ 2015-10-31T12:24:12+08:00 ] 106.38.241.159 /index.php/School/community
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001994s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.007024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' ) LIMIT 1   [ RunTime:0.001648s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' ) ORDER BY id DESC LIMIT 0,16   [ RunTime:0.000699s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2015-10-31T12:24:33+08:00 ] 106.38.241.159 /index.php/Message/message_more/id/9
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001809s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001829s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '9'  )  [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001351s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001336s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '9'   ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab623926de.jpg',`img2`='55eab623a5f5e.jpg',`img3`='-',`img4`='-',`message_tittle`='换书啦',`message_more`='新买的 看完了 想交换 有想要的吗',`span_1`='其他',`span_2`='主要标签：换书',`span_3`='标签1：刚买的',`span_4`='标签2：有想要的吗',`time`='2015-09-05',`look_number`=28,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 9 ) [ RunTime:0.002421s ]
+
+[ 2015-10-31T12:24:53+08:00 ] 106.38.241.159 /index.php/School/video_more/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 512 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001856s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.033808s ]
+SQL: SELECT * FROM `school_video` WHERE (  id='1' )  [ RunTime:0.000544s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT `look` FROM `school_video` WHERE (  id='1' ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: UPDATE `school_video` SET `look`=24 WHERE (  id='1' ) [ RunTime:0.005929s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.226572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001038s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2015-10-31T12:30:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T12:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T13:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T13:00:52+08:00 ] 101.226.65.106 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001427s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000558s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.024785s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.124847s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.014213s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001512s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.001537s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001339s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.022790s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000627s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003467s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2015-10-31T13:00:53+08:00 ] 117.172.25.14 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001160s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.000751s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.002700s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000629s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.001075s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000705s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.001090s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001268s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.001228s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003788s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-10-31T13:00:54+08:00 ] 117.172.25.14 /index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 252 行.
+
+[ 2015-10-31T13:02:19+08:00 ] 220.181.108.156 /index.php/School/community
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001012s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.000777s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' ) ORDER BY id DESC LIMIT 0,16   [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-10-31T13:11:27+08:00 ] 68.180.229.42 /index.php/Message/message_more/id/16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.002347s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002032s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '16'  )  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001133s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '16'   ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab94ca7d44.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_1`='失物招领',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`time`='2015-09-05',`look_number`=56,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=3 WHERE ( `id` = 16 ) [ RunTime:0.003208s ]
+
+[ 2015-10-31T13:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T13:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T13:45:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T14:00:07+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T14:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T14:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T14:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T15:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T15:10:00+08:00 ] 124.119.55.148 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+
+[ 2015-10-31T15:10:01+08:00 ] 124.119.55.148 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.008048s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000692s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.017667s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.007879s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000468s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.009598s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.005586s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.001329s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001709s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.002458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.001486s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.031288s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.004007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.187594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187960s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001846s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.014897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008320s ]
+
+[ 2015-10-31T15:10:03+08:00 ] 124.119.55.148 /index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 252 行.
+
+[ 2015-10-31T15:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T15:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T15:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T16:00:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T16:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T16:17:59+08:00 ] 157.55.39.43 /index.php/School/community
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001836s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001618s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' ) ORDER BY id DESC LIMIT 0,16   [ RunTime:0.000679s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+NOTIC: [8] Undefined index:  comment /www/users/shzlife.com/Home/Runtime/Cache/842013413c00dd117879c22d5b053b3f.php 第 228 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-10-31T16:26:23+08:00 ] 123.125.71.115 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-10-31T16:26:23+08:00 ] 123.125.71.107 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.000910s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.001078s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001415s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.001064s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.000978s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.001081s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046029s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-10-31T16:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T16:39:25+08:00 ] 183.17.134.66 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-10-31T16:39:25+08:00 ] 183.17.134.66 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001973s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.001144s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001965s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000607s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.001868s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.001265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002343s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.001655s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001509s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.001640s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000617s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2015-10-31T16:39:29+08:00 ] 183.17.134.66 /index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 252 行.
+
+[ 2015-10-31T16:39:38+08:00 ] 183.17.134.66 /index.php/First/essay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo /www/users/shzlife.com/Home/Runtime/Cache/c5c9252264983650b103424ef8ae7bfe.php 第 177 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000864s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-10-31T16:39:45+08:00 ] 183.17.134.66 /index.php/Part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/PartAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000893s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.000786s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 )  [ RunTime:0.000248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 )  [ RunTime:0.000192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042831s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003114s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-10-31T16:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T16:45:51+08:00 ] 68.180.229.42 /index.php/Message/message_more/id/14
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000707s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001062s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '14'  )  [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001133s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '14'   ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab888ea094.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='汉语字典',`message_more`='汉语字典，在博学楼捡到的，\r\n汉语字典，在博学楼捡到的，',`span_1`='失物招领',`span_2`='拾取地点：博学楼A204',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥70',`time`='2015-09-05',`look_number`=44,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 14 ) [ RunTime:0.003000s ]
+
+[ 2015-10-31T16:59:43+08:00 ] 220.181.108.93 /index.php/Message/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001377s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='其他' ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045685s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001041s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2015-10-31T17:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T17:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009177s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T17:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T17:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T18:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T18:01:46+08:00 ] 195.154.157.47 /index.php/Message/message_more/id/13
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.013515s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.013746s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '13'  )  [ RunTime:0.000966s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001354s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '13'   ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab81541fa3.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='轮滑保护头盔',`message_more`='轮滑保护头盔，看看是谁的？，来认领',`span_1`='失物招领',`span_2`='拾取地点：忘了',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥20',`time`='2015-09-05',`look_number`=48,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=4 WHERE ( `id` = 13 ) [ RunTime:0.012669s ]
+
+[ 2015-10-31T18:01:48+08:00 ] 195.154.157.47 /index.php/Message/message_more/id/14
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.002262s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001899s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '14'  )  [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000704s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '14'   ) LIMIT 1   [ RunTime:0.000958s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab888ea094.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='汉语字典',`message_more`='汉语字典，在博学楼捡到的，\r\n汉语字典，在博学楼捡到的，',`span_1`='失物招领',`span_2`='拾取地点：博学楼A204',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥70',`time`='2015-09-05',`look_number`=45,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 14 ) [ RunTime:0.003186s ]
+
+[ 2015-10-31T18:01:50+08:00 ] 195.154.157.47 /index.php/Message/message_more/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001901s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001945s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '5'  )  [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003301s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '5'   ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaaf1076242.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='金融双学位用书',`message_more`='9月5号丢的，图书馆借的书，急，望好心人看到了联系我',`span_1`='寻物启事',`span_2`='丢失地点：博学楼A204',`span_3`='酬谢方式：当面酬谢',`span_4`='物品价值：￥30',`time`='2015-09-05',`look_number`=39,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=2 WHERE ( `id` = 5 ) [ RunTime:0.004006s ]
+
+[ 2015-10-31T18:01:52+08:00 ] 195.154.157.47 /index.php/Message/message_more/id/6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 482 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000683s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000645s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '6'  )  [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '6'   ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='-',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='SONY T2 6.0白色手机',`message_more`='望好心的同学能捡到后联系我，感激不敬',`span_1`='寻物启事',`span_2`='丢失地点：南区操场',`span_3`='酬谢方式：当面酬谢',`span_4`='物品价值：￥2000',`time`='2015-09-05',`look_number`=27,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 6 ) [ RunTime:0.007065s ]
+
+[ 2015-10-31T18:15:12+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T18:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T18:45:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T19:00:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T19:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T19:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T19:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T19:58:47+08:00 ] 219.238.63.254 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-10-31T19:58:50+08:00 ] 219.238.63.254 /index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.023636s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.007588s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.027872s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000933s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.000742s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.007306s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.018308s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000371s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-10-31T19:58:52+08:00 ] 219.238.63.254 /index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 252 行.
+
+[ 2015-10-31T19:59:08+08:00 ] 219.238.63.254 /index.php/Message/lose.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.002275s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='失物招领' ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001565s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2015-10-31T19:59:15+08:00 ] 219.238.63.254 /index.php/Message/find.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000656s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='寻物启事' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-10-31T19:59:19+08:00 ] 219.238.63.254 /index.php/Message/other.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.000818s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='其他' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060062s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000346s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-10-31T19:59:25+08:00 ] 219.238.63.254 /index.php/Message/two.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001137s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_message_2` WHERE (  span_1='二手交易' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 0,16   [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  header /www/users/shzlife.com/ThinkPHP/Extend/Library/ORG/Util/AjaxPage.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.414245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.414357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-10-31T19:59:33+08:00 ] 219.238.63.254 /index.php/Message/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001256s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001220s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001416s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003716s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2015-10-31T19:59:35+08:00 ] 219.238.63.254 /index.php/Message/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/MessageAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001117s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001148s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000293s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id DESC LIMIT 8   [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-10-31T19:59:52+08:00 ] 219.238.63.254 /index.php/First/index2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.001110s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000481s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.000711s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001334s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.001352s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000896s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.000878s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.001110s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.000765s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-10-31T19:59:53+08:00 ] 219.238.63.254 /index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/FirstAction.class.php 第 252 行.
+
+[ 2015-10-31T20:00:03+08:00 ] 219.238.63.254 /index.php/School/community_more/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index:  username /www/users/shzlife.com/Home/Lib/Action/SchoolAction.class.php 第 461 行.
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.035855s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='' )  [ RunTime:0.031898s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.000691s ]
+SQL: SELECT * FROM `school_community` WHERE (  id='3' )  [ RunTime:0.000341s ]
+SQL: SELECT `username` FROM `school_user` WHERE ( usernumber='1576701411@qq.com' ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT `look` FROM `school_community` WHERE (  id='3' ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: UPDATE `school_community` SET `look`=26 WHERE (  id='3' ) [ RunTime:0.087569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-10-31T20:00:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T20:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T20:30:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T20:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T21:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T21:15:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T21:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T21:43:43+08:00 ] 124.88.132.3 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-10-31T21:43:44+08:00 ] 124.88.132.3 /index.php/MobelFirst/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.133172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/video.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027808s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/message_more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000627s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/study.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/essay.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001715s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000534s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001381s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000505s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001742s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000417s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001421s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000475s ]
+
+[ 2015-10-31T21:43:46+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001538s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000468s ]
+
+[ 2015-10-31T21:43:47+08:00 ] 124.88.132.3 /index.php/MobelFirst/talk.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000769s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-10-31T21:43:47+08:00 ] 124.88.132.3 /index.php/MobelFirst/lose.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /www/users/shzlife.com/Home/Runtime/Cache/ff6bb2c96a2a56a172e45c1233660a88.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017886s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2015-10-31T21:43:47+08:00 ] 124.88.132.3 /index.php/MobelFirst/play.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-10-31T21:43:47+08:00 ] 124.88.132.3 /index.php/MobelFirst/find.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-10-31T21:43:48+08:00 ] 124.88.132.3 /index.php/MobelFirst/part.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000899s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004024s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2015-10-31T21:43:48+08:00 ] 124.88.132.3 /index.php/MobelFirst/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003502s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2015-10-31T21:43:48+08:00 ] 124.88.132.3 /index.php/MobelFirst/two.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /www/users/shzlife.com/Home/Runtime/Cache/5134479ffcda5f55a65e6b0240ad6771.php 第 12 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002599s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-10-31T21:43:48+08:00 ] 124.88.132.3 /index.php/MobelFirst/my.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2015-10-31T21:43:51+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002597s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000888s ]
+
+[ 2015-10-31T21:43:51+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002548s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000777s ]
+
+[ 2015-10-31T21:43:51+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002407s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000971s ]
+
+[ 2015-10-31T21:43:51+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002629s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000641s ]
+
+[ 2015-10-31T21:43:52+08:00 ] 124.88.132.3 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001860s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000414s ]
+
+[ 2015-10-31T21:45:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T21:47:40+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001412s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000325s ]
+
+[ 2015-10-31T21:47:41+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000631s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000960s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '16'  )  [ RunTime:0.000243s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '16'   ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab94ca7d44.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_1`='失物招领',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`time`='2015-09-05',`look_number`=57,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=3 WHERE ( `id` = 16 ) [ RunTime:0.012524s ]
+
+[ 2015-10-31T21:47:43+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002428s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000676s ]
+
+[ 2015-10-31T21:47:43+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001538s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '4'  )  [ RunTime:0.000459s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '4'   ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaae62090d3.jpg',`img2`='55eaae621fc20.jpg',`img3`='-',`img4`='-',`message_tittle`='BSA品牌车',`message_more`='21速，九五成新，七天保修，可随时调换',`span_1`='二手交易',`span_2`='￥330',`span_3`='新旧程度：九成新',`span_4`='原价：1350',`time`='2015-09-05',`look_number`=175,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=10 WHERE ( `id` = 4 ) [ RunTime:0.003515s ]
+
+[ 2015-10-31T21:47:57+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001338s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '4'  )  [ RunTime:0.000326s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '4'   ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaae62090d3.jpg',`img2`='55eaae621fc20.jpg',`img3`='-',`img4`='-',`message_tittle`='BSA品牌车',`message_more`='21速，九五成新，七天保修，可随时调换',`span_1`='二手交易',`span_2`='￥330',`span_3`='新旧程度：九成新',`span_4`='原价：1350',`time`='2015-09-05',`look_number`=176,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=10 WHERE ( `id` = 4 ) [ RunTime:0.002664s ]
+
+[ 2015-10-31T21:48:18+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.003993s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '16'  )  [ RunTime:0.001172s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '16'   ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eab94ca7d44.jpg',`img2`='-',`img3`='-',`img4`='-',`message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_1`='失物招领',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`time`='2015-09-05',`look_number`=58,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=3 WHERE ( `id` = 16 ) [ RunTime:0.004763s ]
+
+[ 2015-10-31T21:49:53+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002740s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '2'  )  [ RunTime:0.000672s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '2'   ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaad0b7133f.jpg',`img2`='55eaad0b818f9.jpg',`img3`='55eaad0b8fb93.jpg',`img4`='55eaad0ba340e.jpg',`message_tittle`='轮滑',`message_more`='九五新，原价300多，穿不到10次，42码的鞋，42，43脚都能穿！',`span_1`='二手交易',`span_2`='￥240',`span_3`='新旧程度：九五新',`span_4`='原价：350',`time`='2015-09-05',`look_number`=44,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=1 WHERE ( `id` = 2 ) [ RunTime:0.002996s ]
+
+[ 2015-10-31T21:57:14+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.002208s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000660s ]
+
+[ 2015-10-31T21:57:14+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.003273s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000607s ]
+
+[ 2015-10-31T21:57:14+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001693s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000758s ]
+
+[ 2015-10-31T21:57:14+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001887s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000638s ]
+
+[ 2015-10-31T21:57:14+08:00 ] 223.104.30.243 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001556s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000460s ]
+
+[ 2015-10-31T21:57:18+08:00 ] 223.104.30.243 /index.php/MobelFirst/look_message_more?id=4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000941s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '4'  )  [ RunTime:0.000263s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '4'   ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaae62090d3.jpg',`img2`='55eaae621fc20.jpg',`img3`='-',`img4`='-',`message_tittle`='BSA品牌车',`message_more`='21速，九五成新，七天保修，可随时调换',`span_1`='二手交易',`span_2`='￥330',`span_3`='新旧程度：九成新',`span_4`='原价：1350',`time`='2015-09-05',`look_number`=177,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=10 WHERE ( `id` = 4 ) [ RunTime:0.002055s ]
+
+[ 2015-10-31T22:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T22:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T22:30:05+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T22:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T23:00:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T23:15:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T23:27:05+08:00 ] 218.84.71.133 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-10-31T23:27:05+08:00 ] 218.84.71.133 /index.php/MobelFirst/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000553s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002923s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/video.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/message_more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005732s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000294s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/study.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000284s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/essay.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002253s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001607s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000491s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002388s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000553s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.002635s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000654s ]
+
+[ 2015-10-31T23:27:06+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001460s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000592s ]
+
+[ 2015-10-31T23:27:07+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001529s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000642s ]
+
+[ 2015-10-31T23:27:07+08:00 ] 218.84.71.133 /index.php/MobelFirst/lose.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /www/users/shzlife.com/Home/Runtime/Cache/ff6bb2c96a2a56a172e45c1233660a88.php 第 17 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000286s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2015-10-31T23:27:07+08:00 ] 218.84.71.133 /index.php/MobelFirst/play.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000308s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-10-31T23:27:07+08:00 ] 218.84.71.133 /index.php/MobelFirst/find.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000282s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-10-31T23:27:08+08:00 ] 218.84.71.133 /index.php/MobelFirst/my.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000795s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000907s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004013s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2015-10-31T23:27:08+08:00 ] 218.84.71.133 /index.php/MobelFirst/two.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data /www/users/shzlife.com/Home/Runtime/Cache/5134479ffcda5f55a65e6b0240ad6771.php 第 12 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000606s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2015-10-31T23:27:08+08:00 ] 218.84.71.133 /index.php/MobelFirst/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009883s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000587s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-10-31T23:27:08+08:00 ] 218.84.71.133 /index.php/MobelFirst/part.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000661s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-10-31T23:27:08+08:00 ] 218.84.71.133 /index.php/MobelFirst/talk.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Constant THEME_NAME already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined /www/users/shzlife.com/ThinkPHP/Lib/Core/View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000652s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2015-10-31T23:27:34+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001527s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000451s ]
+
+[ 2015-10-31T23:27:34+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.000920s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000339s ]
+
+[ 2015-10-31T23:27:34+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001063s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000420s ]
+
+[ 2015-10-31T23:27:34+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001356s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000358s ]
+
+[ 2015-10-31T23:27:34+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001263s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000435s ]
+
+[ 2015-10-31T23:27:40+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.001989s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000633s ]
+
+[ 2015-10-31T23:27:40+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001494s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000438s ]
+
+[ 2015-10-31T23:27:40+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001386s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000529s ]
+
+[ 2015-10-31T23:27:40+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001688s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000555s ]
+
+[ 2015-10-31T23:27:40+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001395s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.001177s ]
+
+[ 2015-10-31T23:27:43+08:00 ] 218.84.71.133 /index.php/MobelFirst/look_message_more?id=4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001864s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  id = '4'  )  [ RunTime:0.000481s ]
+SQL: SELECT `look_number` FROM `school_message_2` WHERE (   id = '4'   ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SELECT * FROM `school_message_2` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001196s ]
+SQL: UPDATE `school_message_2` SET `message_username`='1576701411@qq.com',`image`='55eaae62090d3.jpg',`img2`='55eaae621fc20.jpg',`img3`='-',`img4`='-',`message_tittle`='BSA品牌车',`message_more`='21速，九五成新，七天保修，可随时调换',`span_1`='二手交易',`span_2`='￥330',`span_3`='新旧程度：九成新',`span_4`='原价：1350',`time`='2015-09-05',`look_number`=178,`qq`='1576701411',`tel`='18290777865',`collect`=0,`bad`=0,`good`=0,`comment`=10 WHERE ( `id` = 4 ) [ RunTime:0.003082s ]
+
+[ 2015-10-31T23:27:54+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_two
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002254s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='二手交易' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000623s ]
+
+[ 2015-10-31T23:27:54+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_part
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.002621s ]
+SQL: SELECT * FROM `school_part` LIMIT 2   [ RunTime:0.000575s ]
+
+[ 2015-10-31T23:27:54+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_find
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001548s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='寻物启事' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000722s ]
+
+[ 2015-10-31T23:27:55+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_lose
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.001856s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='失物招领' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000628s ]
+
+[ 2015-10-31T23:27:55+08:00 ] 218.84.71.133 /index.php/MobelFirst/new_other
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.002189s ]
+SQL: SELECT * FROM `school_message_2` WHERE (  span_1='其他' ) ORDER BY id desc LIMIT 4   [ RunTime:0.000719s ]
+
+[ 2015-10-31T23:30:03+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+
+[ 2015-10-31T23:45:04+08:00 ] 103.240.150.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index:  HTTP_USER_AGENT /www/users/shzlife.com/Home/Lib/Action/IndexAction.class.php 第 7 行.
+

@@ -1,0 +1,359 @@
+[ 2016-04-04T13:57:30+08:00 ] 127.0.0.1 /scwelife/web/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-04-04T13:57:30+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/index2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `school_user` [ RunTime:0.004750s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `school_user` WHERE ( usernumber='1576701411@qq.com' )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `school_search` [ RunTime:0.003824s ]
+SQL: SELECT * FROM `school_search` ORDER BY count desc  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `school_part` [ RunTime:0.004676s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT * FROM `school_part` WHERE ( pass=1 ) ORDER BY id DESC  [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_part` WHERE ( pass=1 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `school_essay` [ RunTime:0.004057s ]
+SQL: SELECT * FROM `school_essay` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000556s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_essay` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.004427s ]
+SQL: SELECT * FROM `school_message_2` ORDER BY id DESC  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `school_video` [ RunTime:0.004198s ]
+SQL: SELECT * FROM `school_video` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `school_community` [ RunTime:0.004088s ]
+SQL: SELECT * FROM `school_community` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_community` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `school_study` [ RunTime:0.004077s ]
+SQL: SELECT * FROM `school_study` WHERE (  only_me='0' AND img!='' ) ORDER BY good desc  [ RunTime:0.000565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school_study` WHERE (  only_me='0' AND img!='' ) LIMIT 1   [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038363s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-04-04T13:57:31+08:00 ] 127.0.0.1 /scwelife/web/index.php/First/username
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-04-04T14:03:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:10:06+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:10:21+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:11:51+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:15:53+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:17:49+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:18:37+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-04-04T14:27:45+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:32:22+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:32:41+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:32:53+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:33:15+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:38:55+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:39:21+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:41:23+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:43:01+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:43:22+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:48:22+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001359s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:48:33+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:49:11+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:49:58+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:50:20+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:54:34+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:54:38+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:54:45+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:56:01+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:56:09+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:56:43+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:56:49+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:56:57+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T14:57:31+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+
+[ 2016-04-04T15:11:42+08:00 ] 127.0.0.1 /scwelife/web/index.php/MobelFirst/img_upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\scwelife\web\Home\Lib\Action\MobelFirstAction.class.php 第 72 行.
+

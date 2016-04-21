@@ -1,0 +1,348 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+
+	color: #666;
+	font-weight: 900;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+	overflow-x:hidden; 
+
+}
+
+
+img
+{
+	border: 0px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #666;
+}
+
+
+hr
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.body
+{
+	width: 100%;
+	height: 5400px;
+	overflow: hidden;
+}
+*/
+
+.top
+{
+	width: 100%;
+	height: 70px;
+	background-color: #60BFBF;
+	position: fixed;
+	z-index: 1000;
+}
+
+.top_center
+{
+	width: 1024px;
+	position: relative;
+	top: 10px;
+
+}
+
+.top_center li
+{
+	 float: left;
+	 height: 50px;
+	 line-height: 60px;
+	 width: 100px;
+	 margin-right: 20px;
+	 color: #fff;
+	 margin-left: 30px;
+}
+
+.top_center li a
+{
+	color: #fff;
+}
+
+.top_center a:hover li
+{	
+	background-color: #009999;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+.top_center li.look
+{
+	background-color: #009999;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center a:hover li.look
+{
+	background-color: #009999;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.top_center li.user
+{
+	background-color: #fff;
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+
+.crumbs  /*面包屑导航*/
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	position: relative;
+	top: 90px;
+	color: #60BFBF;
+}
+
+.crumbs span
+{
+	display: inline-block;
+	padding: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #60BFBF;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.crumbs a:hover span
+{
+	background-color: #99CCFF;
+}
+/**************************************************************************/
+
+
+.inf
+{
+	width: 1024px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:120px;
+}
+
+.inf_left
+{
+	width: 248px;
+	height: 755px;
+	background-color: #eee;
+	float: left;
+	padding: 10px;
+	font-weight: 100px;
+}
+
+/*图片预览********/
+#inf_left_top
+{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	background: url(../Images/add.png);
+}
+
+#up_img
+{
+
+	width: 500px;
+	height: 550px;
+	position: relative;
+	top:-350px;
+	left: -250px;
+	z-index:1;
+	outline-style: none;
+	opacity: 0;
+}
+
+#del
+{
+	width: 20px;
+	height: 20px;
+	background:url(../Images/del.png);
+	float: right;
+	display: none;
+}
+
+
+#inf_left_top img
+{
+	max-width:190px;
+	_width:expression(this.width > 190 ? "190px" : this.width);
+	max-height: 190px;
+	z-index: 2;
+} 
+
+.inf_left_right
+{
+	width: 730px;
+	display: inline-block;
+	float: right;
+	background-color: #eee;
+	text-align: left;
+	font-weight: 100;
+	line-height: 30px;
+	padding: 10px;
+	min-height: 500px;
+	padding-top: 20px;
+}
+
+.title
+{
+	width: 626px;
+	height: 40px;
+	outline-style: none;
+	padding-bottom: 0px;
+	background-color: #eee;
+	border: 1px solid #009999;
+	margin-bottom: 20px;
+	position: relative;
+	left: -8px;
+	top: -1px;
+	padding-left: 10px;
+}
+
+.span
+{
+	background-color: #009999;
+	padding: 10px;
+	color: #fff;
+	padding-bottom: 13px;
+	padding-top: 13px;
+}
+
+.video
+{
+	width: 720px;
+	height: 370px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+}
+
+.message_more
+{
+	width: 700px;
+	height: 150px;
+	outline-style: none;
+	padding-bottom: 0px;
+	background-color: #eee;
+	border: 1px solid #009999;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+
+.input
+{
+	width: 100%;
+	height: 40px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	outline-style: none;
+}
+
+.input:hover
+{
+	background-color: #ccc;
+}
+
+.pass_mess
+{
+	width:100%; 
+	height:70px; 
+	color: red;
+	line-height: 70px;
+	text-align: center;
+	display: none;
+	margin-bottom: 10px;
+}
+
+/****************************************************************************/
+.buttom
+{
+
+	position: relative;
+	top:200px;
+	width: 100%;
+	height: 220px;
+	background-color: #60BFBF;
+	margin-top: 70px;
+
+}
+
+.buttom_center
+{
+
+	width: 1024px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding-top:20px; 
+}
+
+
+.buttom_right
+{
+	width: 470px;
+	height: 200px;
+	padding-top:20px; 
+
+	float: right;
+	position: relative;
+	top: -100px;
+}
+
+.buttom_right_ico
+{
+	width: 130px;
+	height: 30px;
+	padding: 5px;
+	background-color: #009999;
+	line-height: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}

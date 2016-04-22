@@ -1,0 +1,57 @@
+<extend name="main" />
+<block name="tag">信息管理</block>
+<block name="subtag">信息发布管理</block>
+<block name="act"><a href="__URL__/Tow" class="actBtn lsf">新增栏目</a></block>
+<block name="main">
+<form name="select" action="" method="post">
+查询: 
+<select name="condition">
+<option>二手信息</option>
+<option>寻物启事</option>
+<option>失物招领</option>
+<option>其他</option>
+
+</select>
+<input type="submit" value="确定" />
+</form>
+<form id="myForm" name="myForm" action="" method="post">
+    <input type="hidden" name="allIDCheck" value="" id="allIDCheck"/>
+    <input type="hidden" name="fangyuanEntity.fyXqName" value="" id="fyXqName"/>
+    <div id="container">
+      <div class="ui_content">
+            <div class="ui_tb">
+                <table class="table" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+                    <tr>
+                        <th width="30" align="center"><input type="checkbox" id="all" onclick="selectOrClearAllCheckbox(this);" />
+                        </th>
+                        <th align="left">物品名称</th>
+                        <th align="100">发布类型</th >
+                         <th align="100">发布时间</th>
+                          <th align="100">QQ</th> 
+                          <th align="100">电话</th>
+                        
+                        <th width="180">操作</th>
+                    </tr>	
+                    <volist name="arr" id="data">
+                    <tr>
+                        <td align="center"><input type="checkbox" name="IDCheck" value="14458579642011" class="acb" /></td>
+                        <td align="left"> {$data.message_tittle}</td>
+                        <td align="center">{$data.span_1}</td>
+                        <td align="center">{$data.time}</td >
+                        <td align="center">{$data.qq}</td >
+                        <td align="center">{$data.tel}</td >
+                        <td align="center">
+                                 <a href="__URL__/two_edit<if condition="$data['span_1'] eq '失物招领'">02<else />01</if>/cid/{$data.id}" >编辑</a>
+                              <a href="__URL__/deleAttr/id/{$data.id}/table/message_2">删除</a>
+                            
+                        </td>
+                    </tr>
+                    
+                   </volist>
+                 
+                </table>
+            </div>
+        </div>
+    </div>
+</form>
+</block>

@@ -1,0 +1,24 @@
+[ 2015-10-11T10:28:40+08:00 ] 127.0.0.1 /schooladmin/index.php/group_name/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Group_name
+
+[ 2015-10-11T10:41:50+08:00 ] 127.0.0.1 /schooladmin/index.php/group_name/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Group_name
+
+[ 2015-10-11T10:43:12+08:00 ] 127.0.0.1 /schooladmin/index.php/group_name/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Group_name
+
+[ 2015-10-11T10:44:28+08:00 ] 127.0.0.1 /schooladmin/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Index
+

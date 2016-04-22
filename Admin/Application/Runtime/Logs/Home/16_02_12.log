@@ -1,0 +1,1135 @@
+[ 2016-02-12T23:46:23+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017551s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.078973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.079340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.052475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052865s ]
+
+[ 2016-02-12T23:46:24+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003243s ]
+
+[ 2016-02-12T23:46:24+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+
+[ 2016-02-12T23:46:56+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:46:56+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:46:57+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:46:58+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003289s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:46:59+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020470s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:01+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003456s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:01+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:02+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+
+[ 2016-02-12T23:47:07+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003596s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:07+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:08+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003699s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:08+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:09+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:13+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+
+[ 2016-02-12T23:47:17+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:18+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:18+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:19+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+
+[ 2016-02-12T23:47:24+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004628s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.1131s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2016-02-12T23:47:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003935s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:47:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+
+[ 2016-02-12T23:47:55+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: img C:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003924s ]
+
+[ 2016-02-12T23:47:55+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003157s ]
+
+[ 2016-02-12T23:47:55+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004002s ]
+
+[ 2016-02-12T23:47:55+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2016-02-12T23:48:10+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003016s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000642s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003565s ]
+
+[ 2016-02-12T23:51:23+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:23+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:24+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:25+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:26+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:26+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+
+[ 2016-02-12T23:51:27+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000670s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:28+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+NOTIC: [8] Undefined index: Temp C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:28+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+NOTIC: [8] Undefined index: Plugin C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:29+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+NOTIC: [8] Undefined index: System C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:29+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:33+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+
+[ 2016-02-12T23:51:34+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+NOTIC: [8] Undefined index: Extend C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: img C:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004471s ]
+
+[ 2016-02-12T23:51:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003127s ]
+
+[ 2016-02-12T23:51:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003351s ]
+
+[ 2016-02-12T23:51:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002980s ]
+
+[ 2016-02-12T23:51:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+NOTIC: [8] Undefined index: Member C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-02-12T23:51:52+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003312s ]
+
+[ 2016-02-12T23:52:13+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+ERR: 非法操作:product_list
+
+[ 2016-02-12T23:52:14+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/member.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+ERR: 非法操作:member
+
+[ 2016-02-12T23:52:15+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+ERR: 非法操作:order_list
+
+[ 2016-02-12T23:52:16+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003041s ]
+
+[ 2016-02-12T23:53:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+ERR: 非法操作:product_list
+
+[ 2016-02-12T23:53:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/member.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+ERR: 非法操作:member
+
+[ 2016-02-12T23:53:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003319s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000753s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003193s ]
+
+[ 2016-02-12T23:53:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+ERR: 非法操作:product_list
+
+[ 2016-02-12T23:53:20+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/member.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003256s ]
+ERR: 非法操作:member
+
+[ 2016-02-12T23:53:20+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003766s ]
+ERR: 非法操作:order_list
+
+[ 2016-02-12T23:53:21+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2016-02-12T23:56:28+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: img C:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003456s ]
+
+[ 2016-02-12T23:56:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2016-02-12T23:56:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003045s ]
+
+[ 2016-02-12T23:56:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003062s ]
+
+[ 2016-02-12T23:56:35+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+ERR: 非法操作:product_list
+
+[ 2016-02-12T23:56:36+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003303s ]
+
+[ 2016-02-12T23:56:40+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '14' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: img C:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003557s ]
+
+[ 2016-02-12T23:56:41+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003330s ]
+
+[ 2016-02-12T23:56:41+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2016-02-12T23:56:41+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003025s ]
+
+[ 2016-02-12T23:57:50+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2016-02-12T23:57:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007825s ]
+
+[ 2016-02-12T23:57:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+
+[ 2016-02-12T23:58:13+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000969s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003055s ]
+
+[ 2016-02-12T23:58:13+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003523s ]
+
+[ 2016-02-12T23:58:13+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+
+[ 2016-02-12T23:58:39+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003246s ]
+
+[ 2016-02-12T23:58:39+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003140s ]
+
+[ 2016-02-12T23:58:39+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+
+[ 2016-02-12T23:58:41+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000756s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003070s ]
+
+[ 2016-02-12T23:58:59+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003013s ]
+
+[ 2016-02-12T23:59:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003209s ]
+
+[ 2016-02-12T23:59:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006133s ]
+

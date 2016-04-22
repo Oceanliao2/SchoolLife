@@ -1,0 +1,114 @@
+<extend name="main" />
+<block name="tag">信息发布管理</block>
+<block name="subtag">二手交易</block>
+<block name="act"><a href="javascript:history.go(-1)" class="actBtn lsf">undo 返回</a></block>
+<block name="jquery">
+<script type="text/javascript" src="__Plugin__/Ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__Plugin__/Ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="__Plugin__/Jquery/jquery.form.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $form = $("form");
+	$form.on("change","input:file",function(){
+		//上传
+		var data = {};
+		var $this=$(this);
+		$this.closest('form').ajaxSubmit({
+			
+			url: "__MODULE__"+'/Common/ajaximg',
+			type:'POST',
+			data:data,
+			dataType: 'json',
+			async:false,
+			beforeSend:function(){
+			},
+			uploadProgress: function(event, position, total, percentComplete) {
+				
+			},
+			cache: false,
+			contentType: false,
+			processData: false,
+			success:function(data){
+				var str=$("#img").val();
+				str=str+data;
+				$("#img").val(str);
+				
+			},
+			error:function(){
+				
+			}
+		});
+	})
+})
+</script>
+</block>
+<block name="css">
+<style>
+.img_show{ margin:10px auto 0 auto;width:80%;}
+</style>
+</block>
+<block name="main">
+<form id="Formid" name="myForm" action="__MODULE__/Common/edit/table/message_2/id/{:$_GET['cid']}" method="post">
+	<div id="container">
+		<div class="ui_content">
+			<div class="formTag">
+              <a href="javascript:" >基本设置</a>
+            </div>
+            <prt name="Common:lookAtOne" id="T" par="message_2|array('id'::array('eq',$_GET['cid']))" />
+            <div class="formLab">
+               <li>
+                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="200" align="right"><label for="classname">物品名称：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="message_tittle" id="message_tittle" value="{$T.message_tittle}"  class="ui_input_txt03" /></td>
+                   </tr>
+                   <tr>
+                     <td align="right"><label for="describe">物品描述：</label></td>
+                     <td>&nbsp;</td>
+                     <td><textarea name="message_more" id="message_more" cols="45" class="ui_textarea_txt03"  rows="5">{$T.message_more}</textarea></td>
+                   </tr>
+                   
+                   <tr>
+                     <td width="200" align="right"><label for="price">价格：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="span_2" id="span_2"  value="{$T.span_2}" class="ui_input_txt02" /></td>
+                   </tr>
+                   <tr>
+                     <td width="200" align="right"><label for="price">新旧程度：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="span_3" id="span_3"  value="{$T.span_3}" class="ui_input_txt02" /></td>
+                   </tr>
+                    <tr>
+                     <td width="200" align="right"><label for="price">原价：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="span_4" id="span_4"  value="{$T.span_4}" class="ui_input_txt02" /></td>
+                   </tr>
+                    <tr>
+                     <td width="200" align="right"><label for="price">QQ：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="qq" id="qq"  value="{$T.qq}" class="ui_input_txt02" /></td>
+                   </tr>
+                    <tr>
+                     <td width="200" align="right"><label for="price">电话：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td><input type="text" name="tel" id="tel"  value="{$T.tel}" class="ui_input_txt02" /></td>
+                   </tr>
+                   <tr>
+                     <td width="200" align="right"><label for="file">添加图片：</label></td>
+                     <td width="10">&nbsp;</td>
+                     <td>                 
+                     	<!--<input name="image[]" multiple type="file"  class="ui_input_file03" id="file" value="" />
+                     	<input type="hidden" name="img" value="{$T.img}" id="img" />-->
+                     </td> 
+                 </table>
+
+          <div class="formBtn">
+            <input type="submit" class="ui_input_btn01" id="submitbutton" value="提 交"/>
+            <input type="reset"  class="ui_input_btn01" id="cancelbutton" value="取 消"/>
+          </div>
+		</div>
+	</div>
+</form>
+
+</block>

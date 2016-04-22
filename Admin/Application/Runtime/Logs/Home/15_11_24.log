@@ -1,0 +1,71 @@
+[ 2015-11-24T00:07:24+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.051727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019720s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.231959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.059142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.059471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019210s ]
+
+[ 2015-11-24T00:07:25+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010819s ]
+
+[ 2015-11-24T00:07:25+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003638s ]
+
+[ 2015-11-24T00:07:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0851s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004399s ]
+
+[ 2015-11-24T00:07:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+ERR: 非法操作:product_list
+

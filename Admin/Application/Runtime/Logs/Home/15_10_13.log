@@ -1,0 +1,2140 @@
+[ 2015-10-13T16:29:56+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2015-10-13T16:29:57+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2015-10-13T16:29:57+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+
+[ 2015-10-13T16:29:59+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2015-10-13T16:30:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-10-13T16:30:03+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2015-10-13T16:30:03+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2015-10-13T16:30:03+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2015-10-13T16:30:50+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+NOTIC: [8] Undefined index: Member E:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2015-10-13T16:30:51+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+NOTIC: [8] Undefined index: Temp E:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2015-10-13T16:30:52+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+NOTIC: [8] Undefined index: Plugin E:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 24 行.
+
+[ 2015-10-13T16:30:53+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+
+[ 2015-10-13T16:31:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-10-13T16:31:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2015-10-13T16:31:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003273s ]
+
+[ 2015-10-13T16:31:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit01/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\81b7b7d4412aa0b4c1507a4eba3539be.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2015-10-13T16:41:09+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-10-13T16:41:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2015-10-13T16:41:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2015-10-13T16:41:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-10-13T16:41:18+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-10-13T16:44:26+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2015-10-13T16:44:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-10-13T16:44:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000842s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2015-10-13T16:44:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-10-13T16:44:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 234 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-10-13T16:47:17+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2015-10-13T16:47:20+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+
+[ 2015-10-13T16:48:04+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2015-10-13T16:48:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: description E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 239 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 245 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 250 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2015-10-13T16:48:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-10-13T16:48:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-10-13T16:48:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-10-13T16:49:44+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 255 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 260 行.
+NOTIC: [8] Undefined index: price E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 265 行.
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-10-13T16:49:44+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2015-10-13T16:49:44+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-10-13T16:49:44+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-10-13T16:53:50+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-10-13T16:53:50+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002267s ]
+
+[ 2015-10-13T16:53:50+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002598s ]
+
+[ 2015-10-13T16:53:50+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: get E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 221 行.
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2015-10-13T16:56:50+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '15' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-10-13T16:56:51+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2015-10-13T16:56:51+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2015-10-13T16:56:51+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-10-13T16:57:00+08:00 ] 127.0.0.1 /SchoolAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\wamp\www\SchoolAdmin\Application\Home\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-10-13T16:57:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/Main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2015-10-13T16:57:00+08:00 ] 127.0.0.1 /SchoolAdmin/index.php/home/index/LeftMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+
+[ 2015-10-13T16:57:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-10-13T16:57:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '14' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2015-10-13T16:57:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2015-10-13T16:57:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-10-13T16:57:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2015-10-13T16:58:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0046s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='汉语字典',`message_more`='汉语字典，在博学楼捡到的，
+汉语字典，在博学楼捡到的，',`span_2`='拾取地点：博学楼A204',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥70',`qq`='1576701411',`tel`='18290777865' WHERE ( id=14 ) [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-10-13T16:59:30+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2015-10-13T16:59:32+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2015-10-13T16:59:33+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-10-13T16:59:33+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2015-10-13T16:59:33+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-10-13T16:59:37+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0054s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2015-10-13T16:59:40+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-10-13T16:59:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-10-13T16:59:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-10-13T16:59:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-10-13T16:59:43+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2015-10-13T17:00:38+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0051s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-10-13T17:00:54+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001911s ]
+
+[ 2015-10-13T17:00:58+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-10-13T17:00:59+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2015-10-13T17:00:59+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2015-10-13T17:00:59+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2015-10-13T17:01:15+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0048s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2015-10-13T17:01:26+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-10-13T17:01:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2015-10-13T17:01:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2015-10-13T17:01:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2015-10-13T17:01:29+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-10-13T17:01:31+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0044s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2015-10-13T17:01:59+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2015-10-13T17:02:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-10-13T17:02:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2015-10-13T17:02:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2015-10-13T17:02:02+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-10-13T17:02:06+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0039s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊啊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-10-13T17:02:07+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `school_message_2`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+NOTIC: [8] Undefined variable: T E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\e3e52dbb2b75b36bed43b3ed802654e0.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-10-13T17:03:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '16' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: img E:\wamp\www\SchoolAdmin\Application\Runtime\Cache\Home\7de6f418b5074d868acdf2a52b18059d.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2015-10-13T17:03:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2015-10-13T17:03:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Jquery/jquery.form.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2015-10-13T17:03:19+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/two_edit02/cid/__Plugin__/Ueditor/ueditor.all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `school_message_2` WHERE `id` = '__Plugin__' LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2015-10-13T17:03:22+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0055s ]
+SQL: UPDATE `school_message_2` SET `message_tittle`='捡到一头熊啊',`message_more`='捡到一头熊，要是没有人认领，就是我的了',`span_2`='拾取地点：南区',`span_3`='酬谢方式：不需要酬谢',`span_4`='物品价值：￥300',`qq`='15767014112',`tel`='18290777865' WHERE ( id=16 ) [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2015-10-13T17:03:33+08:00 ] 127.0.0.1 /schooladmin/index.php/home/index/Edit/table/message_2/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `school_message_2` [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+

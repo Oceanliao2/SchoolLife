@@ -1,0 +1,48 @@
+[ 2016-04-23T00:41:57+08:00 ] 127.0.0.1 /scwelife/admin/Public/Jquery/Check.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:41:57+08:00 ] 127.0.0.1 /scwelife/admin/Public/Font/LigatureSymbols/LigatureSymbols/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:41:58+08:00 ] 127.0.0.1 /scwelife/admin/Public/Font/LigatureSymbols/LigatureSymbols/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:41:58+08:00 ] 127.0.0.1 /scwelife/admin/Public/Jquery/Check.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:42:02+08:00 ] 127.0.0.1 /scwelife/admin/Public/Jquery/Check.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:42:02+08:00 ] 127.0.0.1 /scwelife/admin/Public/Font/LigatureSymbols/LigatureSymbols/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:42:04+08:00 ] 127.0.0.1 /scwelife/admin/Public/Jquery/Check.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-23T00:42:04+08:00 ] 127.0.0.1 /scwelife/admin/Public/Font/LigatureSymbols/LigatureSymbols/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Public
+

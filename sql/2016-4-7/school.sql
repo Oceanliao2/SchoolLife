@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `dzmp_user` (
   `name` varchar(32) NOT NULL COMMENT '姓名',
   `job` varchar(32) NOT NULL COMMENT '职务',
   `tel` varchar(32) NOT NULL COMMENT '电话',
-  `phone` varchar(32) NOT NULL COMMENT 'ÊÖ»ú',
+  `phone` varchar(32) NOT NULL COMMENT '手机',
   `img` varchar(32) NOT NULL COMMENT '头像',
   `work_name` varchar(32) NOT NULL,
   `fix` varchar(32) NOT NULL,
